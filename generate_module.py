@@ -209,12 +209,23 @@ def gen_flashcards(vocab: list, all_text: str) -> list:
     return cards
 
 
+def _ctx_sentence(word: str) -> str:
+    """Retorna uma frase aleatória do contexts_cache para a palavra, ou vazio."""
+    entries = _ctx_cache.get(word) or _ctx_cache.get(word.lower()) or []
+    return random.choice(entries) if entries else ""
+
+
 def gen_fill_blanks(vocab: list, all_text: str) -> list:
     """Gera exercícios de preencher lacunas."""
     exercises = []
     for item in vocab:
         word      = item["word"]
         sentences = find_sentences(all_text, word)
+        # Fallback to contexts_cache when word not found in PDF
+        if not sentences:
+            ctx = _ctx_sentence(word)
+            if ctx:
+                sentences = [ctx]
         if not sentences:
             continue
         sentence = sentences[0]
@@ -247,7 +258,10 @@ def gen_multiple_choice(vocab: list, all_text: str) -> list:
     for item in vocab:
         word      = item["word"]
         sentences = find_sentences(all_text, word)
-        example   = sentences[0] if sentences else item["example"]
+        example   = sentences[0] if sentences else ""
+        # Fallback to contexts_cache when word not found in PDF
+        if not example:
+            example = _ctx_sentence(word) or item["example"]
         if not example:
             continue
         blank = re.sub(re.escape(word), "___", example, count=1, flags=re.IGNORECASE)
@@ -289,7 +303,10 @@ def gen_matching(vocab: list, all_text: str) -> list:
     for item in vocab:
         word      = item["word"]
         sentences = find_sentences(all_text, word)
-        example   = sentences[0] if sentences else item["example"]
+        example   = sentences[0] if sentences else ""
+        # Fallback to contexts_cache when word not found in PDF
+        if not example:
+            example = _ctx_sentence(word) or item["example"]
 
         if example:
             # Encurta para não poluir visualmente (máx 90 chars)
