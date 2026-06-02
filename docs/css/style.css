@@ -302,7 +302,26 @@ body {
 .feedback-msg.wrong   { color: var(--danger); }
 .feedback-msg.hint    { color: var(--text-muted); font-weight: 400; }
 .hint-translation     { color: var(--accent2); font-weight: 700; }
-.hint-mask            { color: var(--text-muted); font-family: monospace; font-size: .95rem; letter-spacing: .05em; }.hint-context     { display: block; margin-top: .4rem; font-size: .85rem; color: var(--text-muted); font-style: italic; }.try-again-btn        { margin-top: .4rem; font-size: .8rem; padding: .3rem .9rem;
+.hint-mask            { color: var(--text-muted); font-family: monospace; font-size: .95rem; letter-spacing: .05em; }.hint-context     { display: block; margin-top: .4rem; font-size: .85rem; color: var(--text-muted); font-style: italic; }
+
+/* ─────────────────────────────────────────────
+   Flashcard search
+───────────────────────────────────────────── */
+.fc-search-wrap {
+  display: flex; align-items: center; gap: .6rem;
+  margin-bottom: 1.2rem;
+}
+.fc-search {
+  flex: 1; background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.12); border-radius: 8px;
+  color: var(--text); font-size: .9rem; padding: .5rem .8rem;
+  outline: none; font-family: inherit;
+}
+.fc-search:focus { border-color: var(--accent); }
+.fc-search::-webkit-search-cancel-button { cursor: pointer; }
+.fc-search-count {
+  font-size: .78rem; color: var(--accent2); white-space: nowrap; min-width: 4rem; text-align: right;
+}.try-again-btn        { margin-top: .4rem; font-size: .8rem; padding: .3rem .9rem;
                         opacity: .85; border-color: var(--text-muted); color: var(--text-muted); }
 
 /* ─────────────────────────────────────────────

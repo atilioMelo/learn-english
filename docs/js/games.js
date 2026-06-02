@@ -222,14 +222,53 @@ function renderFlashcards(cards) {
   const area = qs('#game-area');
   if (!cards.length) { area.innerHTML = emptyState('No flashcards in this module.'); return; }
 
-  let idx   = 0;
-  let deck = shuffle(cards);
-  // Track flip count per card index (resets on restart)
-  const flipCounts = new Array(deck.length).fill(0);
+  const allCards = shuffle(cards);
+  let filteredDeck = [...allCards];
+  // flipCounts keyed by index in allCards (persists across search changes)
+  const flipCounts = new Array(allCards.length).fill(0);
+  let idx = 0;
+
+  // Persistent outer structure (search bar stays while cards navigate)
+  area.innerHTML = `
+    <div class="fc-search-wrap">
+      <input id="fc-search" class="fc-search" type="search" placeholder="🔍 Buscar expressão, palavra ou tradução…" autocomplete="off" spellcheck="false" />
+      <span id="fc-search-count" class="fc-search-count"></span>
+    </div>
+    <div id="fc-card-area"></div>`;
+
+  qs('#fc-search').addEventListener('input', function () {
+    const q = this.value.trim().toLowerCase();
+    filteredDeck = q
+      ? allCards.filter(c =>
+          c.word.toLowerCase().includes(q) ||
+          (c.definition  ?? '').toLowerCase().includes(q) ||
+          (c.translation ?? '').toLowerCase().includes(q) ||
+          (c.example     ?? '').toLowerCase().includes(q))
+      : [...allCards];
+    idx = 0;
+    render();
+  });
 
   function render() {
-    const card = deck[idx];
-    area.innerHTML = `
+    const cardArea = qs('#fc-card-area');
+    const countEl  = qs('#fc-search-count');
+    const searching = filteredDeck.length < allCards.length;
+
+    if (countEl) {
+      countEl.textContent = searching
+        ? `${filteredDeck.length} resultado${filteredDeck.length !== 1 ? 's' : ''}`
+        : '';
+    }
+
+    if (!filteredDeck.length) {
+      cardArea.innerHTML = `<div class="empty-state"><p>Nenhum resultado para essa busca.</p></div>`;
+      return;
+    }
+
+    const card    = filteredDeck[idx];
+    const origIdx = allCards.indexOf(card);
+
+    cardArea.innerHTML = `
       <div class="flashcard-wrap">
         <div class="flashcard" id="fc" tabindex="0" title="Click to flip">
           <div class="flashcard-inner">
@@ -248,8 +287,8 @@ function renderFlashcards(cards) {
 
         <div class="fc-controls">
           <button class="btn" id="fc-prev" ${idx === 0 ? 'disabled' : ''}>← Prev</button>
-          <span class="fc-counter">${idx + 1} / ${deck.length}</span>
-          <button class="btn btn-primary" id="fc-next">${idx < deck.length - 1 ? 'Next →' : 'Restart 🔁'}</button>
+          <span class="fc-counter">${idx + 1} / ${filteredDeck.length}</span>
+          <button class="btn btn-primary" id="fc-next">${idx < filteredDeck.length - 1 ? 'Next →' : 'Restart 🔁'}</button>
         </div>
       </div>`;
 
@@ -257,15 +296,12 @@ function renderFlashcards(cards) {
 
     function flip() {
       fcEl.classList.toggle('flipped');
-      flipCounts[idx]++;
+      flipCounts[origIdx]++;
     }
 
     function goTo(newIdx) {
-      // Log current card on navigation: flips = total reveals (odd flips)
-      const reveals = Math.ceil(flipCounts[idx] / 2);
-      if (flipCounts[idx] > 0) {
-        logEvent(deck[idx].word, null, reveals, 0);
-      }
+      const reveals = Math.ceil(flipCounts[origIdx] / 2);
+      if (flipCounts[origIdx] > 0) logEvent(card.word, null, reveals, 0);
       idx = newIdx;
       render();
     }
@@ -274,9 +310,19 @@ function renderFlashcards(cards) {
     fcEl.addEventListener('keydown', e => { if (e.key === ' ' || e.key === 'Enter') flip(); });
 
     qs('#fc-prev')?.addEventListener('click', () => { if (idx > 0) goTo(idx - 1); });
-    qs('#fc-next').addEventListener('click', () => {
-      if (idx < deck.length - 1) { goTo(idx + 1); }
-      else { deck = shuffle(deck); flipCounts.fill(0); idx = 0; render(); }
+    qs('#fc-next').addEventListener('click',  () => {
+      if (idx < filteredDeck.length - 1) { goTo(idx + 1); }
+      else {
+        // Restart: reshuffle full deck, clear search
+        const searchEl = qs('#fc-search');
+        if (searchEl) searchEl.value = '';
+        filteredDeck = shuffle(allCards);
+        allCards.splice(0, allCards.length, ...filteredDeck);
+        flipCounts.fill(0);
+        idx = 0;
+        qs('#fc-search-count').textContent = '';
+        render();
+      }
     });
   }
 
