@@ -63,7 +63,7 @@
         "word": "throw your bags",
         "definition": "to quickly pack your luggage and put it in a vehicle, ready for a trip",
         "translation": "jogar as malas (no carro), despachar a bagagem rapidamente",
-        "example": "",
+        "example": "On a great American road trip, you throw your bags in the trunk, pack a cooler of lunches, open up a map, and start driving down the open road: who knows where you’ll wind up?",
         "contexts": [
           "Just throw your bags in the trunk and we can hit the road right away.",
           "She told the kids to throw your bags by the door before coming to the dinner table."
@@ -74,7 +74,7 @@
         "word": "trunk",
         "definition": "the storage compartment at the back of a car (American English); called 'boot' in British English",
         "translation": "porta-malas (do carro)",
-        "example": "",
+        "example": "On a great American road trip, you throw your bags in the trunk, pack a cooler of lunches, open up a map, and start driving down the open road: who knows where you’ll wind up?",
         "contexts": [
           "He opened the trunk of the car and loaded the heavy suitcases before the long drive.",
           "There was barely enough room in the trunk for all the camping equipment they had packed."
@@ -85,7 +85,7 @@
         "word": "pack a cooler",
         "definition": "to fill an insulated container with ice and food/drinks to keep them cold during a trip",
         "translation": "encher uma caixa térmica com gelo e bebidas/comidas",
-        "example": "",
+        "example": "On a great American road trip, you throw your bags in the trunk, pack a cooler of lunches, open up a map, and start driving down the open road: who knows where you’ll wind up?",
         "contexts": [
           "Before a long road trip, it is a good idea to pack a cooler with snacks and cold drinks.",
           "They decided to pack a cooler with sandwiches and water so they wouldn't need to stop for food."
@@ -96,7 +96,7 @@
         "word": "open road",
         "definition": "a long, clear stretch of road with no traffic, symbolizing freedom and adventure",
         "translation": "estrada aberta, rodovia livre — símbolo de liberdade e aventura",
-        "example": "",
+        "example": "On a great American road trip, you throw your bags in the trunk, pack a cooler of lunches, open up a map, and start driving down the open road: who knows where you’ll wind up?",
         "contexts": [
           "There is nothing like the feeling of the open road stretching ahead of you on a clear morning.",
           "Route 66 became a symbol of the open road and the freedom of the American highway experience."
@@ -107,7 +107,7 @@
         "word": "wind up",
         "definition": "to end up in a place or situation, often unexpectedly; also to finish or conclude something",
         "translation": "acabar em, terminar em (um lugar ou situação inesperada); encerrar algo",
-        "example": "",
+        "example": "On a great American road trip, you throw your bags in the trunk, pack a cooler of lunches, open up a map, and start driving down the open road: who knows where you’ll wind up?",
         "contexts": [
           "If you take too many wrong turns, you might wind up far from where you intended to go.",
           "After years of moving from city to city, she wound up settling in a small town in the south."
@@ -690,7 +690,7 @@
         "word": "to sip",
         "definition": "to drink something slowly, taking small amounts at a time",
         "translation": "beber aos goles, tomar de pouquinho em pouquinho",
-        "example": "",
+        "example": "Boil it all together, pour into small cups, and sip carefully—leaving the sludge at the bottom.",
         "contexts": [
           "She liked to sip her coffee slowly in the morning before the rest of the household woke up.",
           "He would sit by the window and sip his tea while watching the rain fall on the street below."
@@ -712,7 +712,7 @@
         "word": "messy",
         "definition": "untidy, dirty, or disorganized; complicated and difficult to deal with",
         "translation": "bagunçado, sujo, desorganizado; complicado e difícil de lidar",
-        "example": "",
+        "example": "It was a slow, messy process.",
         "contexts": [
           "Drinking Turkish coffee can be messy if you are not careful, because the grounds settle at the bottom.",
           "The renovation left the kitchen messy for weeks, but the final result was worth the effort."
@@ -833,7 +833,7 @@
         "word": "almost powder like",
         "definition": "having a consistency close to powder; extremely fine and dry",
         "translation": "quase como um pó, com consistência extremamente fina e seca",
-        "example": "",
+        "example": "Cold water and sugar go into a small pot called a cezve, along with finely-ground coffee, almost powder-like.",
         "contexts": [
           "Turkish coffee is made with beans ground almost powder like, far finer than any other brewing method.",
           "The flour had been milled to an almost powder like consistency, perfect for delicate pastries."
@@ -888,7 +888,7 @@
         "word": "spelled",
         "definition": "to say or write the letters of a word in order; past tense of 'spell'",
         "translation": "soletrado — passado de 'spell'; dizer ou escrever as letras de uma palavra em ordem",
-        "example": "It’s spelled a-i-n, apostrophe, t.",
+        "example": "The ones we’ll talk about today are “ma’am,” “o’clock,” and “ain’t.” Ma’am Let’s start with “ma’am.” Ma’am is spelled, m-a apostrophe a-m.",
         "contexts": [
           "Dalgona coffee is spelled differently in various countries, reflecting how quickly the trend spread online.",
           "She was surprised to discover that the word was spelled differently in American and British English."
@@ -1042,7 +1042,7 @@
         "word": "tricky",
         "definition": "difficult to deal with; requiring skill or caution; potentially deceptive",
         "translation": "complicado, difícil de lidar; que exige cuidado; potencialmente enganoso",
-        "example": "",
+        "example": "Ain’t Finally, “ain’t.” “Ain’t” is a tricky word.",
         "contexts": [
           "Getting the water temperature right for filter coffee is tricky — too hot and it tastes bitter.",
           "Pronouncing words in a new language can be tricky at first, but it gets easier with practice."
@@ -1316,79 +1316,19 @@
     ],
     "fill_blanks": [
       {
-        "sentence": "She told the kids to ___ by the door before coming to the dinner table.",
-        "answer": "throw your bags",
-        "hint": "t______________"
+        "sentence": "Before mechanical clocks, people kept time with sundials, hourglasses, and ___—all of which were imprecise.",
+        "answer": "church bells",
+        "hint": "c___________"
       },
       {
-        "sentence": "Pour the rest of the coffee over that ___.",
-        "answer": "foam",
-        "hint": "f___"
+        "sentence": "Here was ___ that all the grown-ups in our lives had been lying to us the whole time.",
+        "answer": "proof",
+        "hint": "p____"
       },
       {
-        "sentence": "Streaming is also opening the door for more ___ artists and fans.",
-        "answer": "diverse",
-        "hint": "d______"
-      },
-      {
-        "sentence": "Add just the first few drops of coffee as it brews, then ___ it vigorously until it turns pale and creamy.",
-        "answer": "whip",
-        "hint": "w___"
-      },
-      {
-        "sentence": "But many of the individual sections of roadway that once ___ Route 66 are still there—and some stretches remain popular with tourists.",
-        "answer": "made up",
-        "hint": "m______"
-      },
-      {
-        "sentence": "Now, they would have a ___, easy-to-use system of national highways.",
-        "answer": "coherent",
-        "hint": "c_______"
-      },
-      {
-        "sentence": "Lana Del Rey has released two country songs ___ of an all-country album expected soon.",
-        "answer": "in advance",
-        "hint": "i_________"
-      },
-      {
-        "sentence": "The machine forced hot water under pressure through ___ coffee.",
-        "answer": "finely-ground",
-        "hint": "f____________"
-      },
-      {
-        "sentence": "There’s usually only one or at most two things going on in a song ___ .",
-        "answer": "at any given point",
-        "hint": "a_________________"
-      },
-      {
-        "sentence": "That ___ it could extract rich flavor from the beans without turning bitter like old boiled coffee.",
-        "answer": "meant",
-        "hint": "m____"
-      },
-      {
-        "sentence": "That meant it could extract rich flavor from the beans without turning ___ like old boiled coffee.",
-        "answer": "bitter",
-        "hint": "b_____"
-      },
-      {
-        "sentence": "You can ___ of this love story back one hundred years exactly, to the founding of Route 66.",
-        "answer": "trace the origin",
-        "hint": "t_______________"
-      },
-      {
-        "sentence": "Now, though, some artists are going the other way: they start as pop stars, and then ___ a country album.",
-        "answer": "release",
-        "hint": "r______"
-      },
-      {
-        "sentence": "But it was ___ : unlike jazz, which was high-energy , bossa nova was typically played at lower volumes and without a lot of drums and percussion instruments .",
-        "answer": "low-key",
-        "hint": "l______"
-      },
-      {
-        "sentence": "In the 1990s, for example, country singers Garth Brooks and Shania Twain ___ the top of the charts in both country and pop formats.",
-        "answer": "reached",
-        "hint": "r______"
+        "sentence": "It was called the “Main Street of America.” John Steinbeck’s famous novel, “The Grapes of Wrath” traced a Dust Bowl-era family as it ___ along Route 66.",
+        "answer": "fled the drought",
+        "hint": "f_______________"
       },
       {
         "sentence": "All the major country ___ are headquartered along Nashville’s Music Row.",
@@ -1396,14 +1336,74 @@
         "hint": "m___________"
       },
       {
+        "sentence": "Bossa nova was the perfect style for the sophisticated ___ in the cafés and bars of Rio de Janeiro, which was undergoing a cultural renaissance at the time.",
+        "answer": "crowd",
+        "hint": "c____"
+      },
+      {
+        "sentence": "Let me ___ the main points of the lesson so they are easier to remember.",
+        "answer": "break down",
+        "hint": "b_________"
+      },
+      {
+        "sentence": "Boil it all together, pour into small cups, and sip carefully—leaving the ___ at the bottom.",
+        "answer": "sludge",
+        "hint": "s_____"
+      },
+      {
+        "sentence": "But streaming also puts pressure on artists to engage with their fans on social media and to make music that ___ the algorithms.",
+        "answer": "pleases",
+        "hint": "p______"
+      },
+      {
+        "sentence": "It introduced country themes to millions of music fans who ___ have given country a second thought.",
+        "answer": "might never",
+        "hint": "m__________"
+      },
+      {
+        "sentence": "There’s usually only one or at most two things going on in a song ___ .",
+        "answer": "at any given point",
+        "hint": "a_________________"
+      },
+      {
+        "sentence": "They’re proud of their ___, and they like having music that reflects their values and lifestyles.",
+        "answer": "rural roots",
+        "hint": "r__________"
+      },
+      {
+        "sentence": "“Ma’am” is a formal way to ___ a woman.",
+        "answer": "address",
+        "hint": "a______"
+      },
+      {
+        "sentence": "Country is a genre ___ acoustic instruments and stories about everyday life—love, loss, and small- town struggles.",
+        "answer": "rooted in",
+        "hint": "r________"
+      },
+      {
+        "sentence": "The highway ___ for hundreds of miles through flat farmland with no towns in sight.",
+        "answer": "stretched",
+        "hint": "s________"
+      },
+      {
+        "sentence": "So when a ___ hit in the early 1930s, massive windstorms blew the loose topsoil all over the region, covering towns and farms in thick dust.",
+        "answer": "severe drought",
+        "hint": "s_____________"
+      },
+      {
         "sentence": "Country tends to grab the ___ music world’s attention when stars cross over into pop and rock.",
         "answer": "wider",
         "hint": "w____"
       },
       {
-        "sentence": "You can use “ain’t” ___.",
-        "answer": "for effect",
-        "hint": "f_________"
+        "sentence": "They boiled water, ___ it over coffee grounds, waited for the grounds to settle to the bottom, and sipped carefully.",
+        "answer": "poured",
+        "hint": "p_____"
+      },
+      {
+        "sentence": "Dolly Parton said goodbye to someone she loved but had to ___.",
+        "answer": "leave behind",
+        "hint": "l___________"
       },
       {
         "sentence": "That proved useful just a few years later during World War II, when large trucks transported military munitions from the ports in California to the ___ in the Midwest and the eastern United States.",
@@ -1411,136 +1411,180 @@
         "hint": "f________"
       },
       {
-        "sentence": "“Ma’am” is a formal way to ___ a woman.",
-        "answer": "address",
-        "hint": "a______"
+        "sentence": "It’s one of the few words that is common in daily speech, and yet is frequently ___ by authority figures like teachers and grammar experts.",
+        "answer": "criticized",
+        "hint": "c_________"
       }
     ],
     "multiple_choice": [
       {
-        "question": "She liked ___ her coffee slowly in the morning before the rest of the household woke up.",
-        "word": "to sip",
+        "question": "Bossa nova music’s development was ___ in the 1960s by the Brazilian military dictatorship , which considered it an outside political or cultural influence .",
+        "word": "halted",
         "options": [
           {
-            "text": "well beyond",
-            "correct": false
-          },
-          {
-            "text": "church bells",
-            "correct": false
-          },
-          {
-            "text": "swear word",
-            "correct": false
-          },
-          {
-            "text": "to sip",
+            "text": "halted",
             "correct": true
-          }
-        ]
-      },
-      {
-        "question": "Here was proof that all the ___ in our lives had been lying to us the whole time.",
-        "word": "grown-ups",
-        "options": [
+          },
+          {
+            "text": "grab attention",
+            "correct": false
+          },
           {
             "text": "not otherwise",
             "correct": false
           },
           {
-            "text": "grown-ups",
-            "correct": true
-          },
-          {
-            "text": "wealth",
-            "correct": false
-          },
-          {
-            "text": "headquartered",
+            "text": "recognized",
             "correct": false
           }
         ]
       },
       {
-        "question": "Turkish coffee is made with beans ground ___, far finer than any other brewing method.",
-        "word": "almost powder like",
+        "question": "You can certainly find country music stars ___ arenas.",
+        "word": "selling out",
         "options": [
+          {
+            "text": "selling out",
+            "correct": true
+          },
+          {
+            "text": "struggles",
+            "correct": false
+          },
+          {
+            "text": "factories",
+            "correct": false
+          },
+          {
+            "text": "against",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Let me ___ the main points of the lesson so they are easier to remember.",
+        "word": "break down",
+        "options": [
+          {
+            "text": "folded",
+            "correct": false
+          },
+          {
+            "text": "break down",
+            "correct": true
+          },
+          {
+            "text": "fled the drought",
+            "correct": false
+          },
+          {
+            "text": "release",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "___ were one of the most important social events for rural communities in the American South.",
+        "word": "country fairs",
+        "options": [
+          {
+            "text": "cross our lips",
+            "correct": false
+          },
+          {
+            "text": "country fairs",
+            "correct": true
+          },
+          {
+            "text": "headquartered",
+            "correct": false
+          },
+          {
+            "text": "against",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Streaming algorithms often help fans of pop, rock, and R&B discover country songs they would ___ have had exposure to.",
+        "word": "not otherwise",
+        "options": [
+          {
+            "text": "rooted in",
+            "correct": false
+          },
           {
             "text": "refurbish",
             "correct": false
           },
           {
-            "text": "almost powder like",
+            "text": "not otherwise",
             "correct": true
           },
           {
             "text": "tough",
             "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Add just the first few drops of coffee as it brews, then ___ it vigorously until it turns pale and creamy.",
+        "word": "whip",
+        "options": [
+          {
+            "text": "bitter",
+            "correct": false
           },
           {
-            "text": "fully paved",
+            "text": "whip",
+            "correct": true
+          },
+          {
+            "text": "pack a cooler",
+            "correct": false
+          },
+          {
+            "text": "poured",
             "correct": false
           }
         ]
       },
       {
-        "question": "Now, though, some artists are going the other way: they start as pop stars, and then ___ a country album.",
-        "word": "release",
+        "question": "Kenny Rogers sang about a veteran gambler giving advice to a ___ passenger on a lonely train ride.",
+        "word": "fellow",
         "options": [
           {
-            "text": "trace the origin",
+            "text": "made up",
             "correct": false
           },
           {
-            "text": "headquartered",
-            "correct": false
-          },
-          {
-            "text": "release",
+            "text": "fellow",
             "correct": true
           },
           {
-            "text": "leave behind",
+            "text": "coffee grounds",
+            "correct": false
+          },
+          {
+            "text": "well beyond",
             "correct": false
           }
         ]
       },
       {
-        "question": "It’s not a swear word; it’s not ___.",
-        "word": "profanity",
+        "question": "Before, it was only country stars who ___ pop stars.",
+        "word": "evolved into",
         "options": [
           {
-            "text": "profanity",
+            "text": "coffee grounds",
+            "correct": false
+          },
+          {
+            "text": "evolved into",
             "correct": true
           },
           {
-            "text": "grown-ups",
-            "correct": false
-          },
-          {
-            "text": "diverse",
-            "correct": false
-          },
-          {
-            "text": "cross over",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Kenny Rogers sang about a veteran ___ giving advice to a fellow passenger on a lonely train ride.",
-        "word": "gambler",
-        "options": [
-          {
-            "text": "gambler",
-            "correct": true
-          },
-          {
-            "text": "soothing",
-            "correct": false
-          },
-          {
-            "text": "drips",
+            "text": "drip coffee",
             "correct": false
           },
           {
@@ -1550,23 +1594,177 @@
         ]
       },
       {
-        "question": "All the major country ___ are headquartered along Nashville’s Music Row.",
-        "word": "music labels",
+        "question": "The city of Albuquerque, New Mexico, is helping to pay to ___ the neon signs on its 18 miles of Route 66.",
+        "word": "refurbish",
         "options": [
           {
-            "text": "selling out",
+            "text": "southern",
             "correct": false
           },
           {
-            "text": "release",
+            "text": "hit the jackpot",
             "correct": false
           },
           {
-            "text": "music labels",
+            "text": "refurbish",
             "correct": true
           },
           {
-            "text": "dozens",
+            "text": "stitched together",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "On a great American road trip, you throw your bags in the trunk, pack a cooler of lunches, open up a map, and start driving down the open road: who knows where you’ll ___?",
+        "word": "wind up",
+        "options": [
+          {
+            "text": "foam",
+            "correct": false
+          },
+          {
+            "text": "keep up with",
+            "correct": false
+          },
+          {
+            "text": "at any given point",
+            "correct": false
+          },
+          {
+            "text": "wind up",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question": "That meant it could extract rich flavor from the beans without turning ___ like old boiled coffee.",
+        "word": "bitter",
+        "options": [
+          {
+            "text": "swear word",
+            "correct": false
+          },
+          {
+            "text": "cross over",
+            "correct": false
+          },
+          {
+            "text": "fully paved",
+            "correct": false
+          },
+          {
+            "text": "bitter",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question": "Luke Combs ___ when his interpretation of “Fast Car” became an international hit.",
+        "word": "hit the jackpot",
+        "options": [
+          {
+            "text": "gritty taste",
+            "correct": false
+          },
+          {
+            "text": "fully paved",
+            "correct": false
+          },
+          {
+            "text": "hit the jackpot",
+            "correct": true
+          },
+          {
+            "text": "grown-ups",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Now, they would have a ___, easy-to-use system of national highways.",
+        "word": "coherent",
+        "options": [
+          {
+            "text": "coherent",
+            "correct": true
+          },
+          {
+            "text": "gritty taste",
+            "correct": false
+          },
+          {
+            "text": "poured",
+            "correct": false
+          },
+          {
+            "text": "messy",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "You can use “ain’t” ___.",
+        "word": "for effect",
+        "options": [
+          {
+            "text": "struggles",
+            "correct": false
+          },
+          {
+            "text": "for effect",
+            "correct": true
+          },
+          {
+            "text": "gambler",
+            "correct": false
+          },
+          {
+            "text": "wealth",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "You can ___ of this love story back one hundred years exactly, to the founding of Route 66.",
+        "word": "trace the origin",
+        "options": [
+          {
+            "text": "coffee grounds",
+            "correct": false
+          },
+          {
+            "text": "trace the origin",
+            "correct": true
+          },
+          {
+            "text": "folded",
+            "correct": false
+          },
+          {
+            "text": "fiercely loyal",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "In the 1990s, for example, country singers Garth Brooks and Shania Twain ___ the top of the charts in both country and pop formats.",
+        "word": "reached",
+        "options": [
+          {
+            "text": "throw your bags",
+            "correct": false
+          },
+          {
+            "text": "reached",
+            "correct": true
+          },
+          {
+            "text": "bitter",
+            "correct": false
+          },
+          {
+            "text": "gambler",
             "correct": false
           }
         ]
@@ -1576,284 +1774,86 @@
         "word": "unlike",
         "options": [
           {
-            "text": "fully paved",
-            "correct": false
-          },
-          {
             "text": "unlike",
             "correct": true
           },
           {
-            "text": "charts",
+            "text": "second thought",
             "correct": false
           },
           {
-            "text": "brewed",
+            "text": "I dare you",
+            "correct": false
+          },
+          {
+            "text": "meant",
             "correct": false
           }
         ]
       },
       {
-        "question": "A police office might say, “Step out of the car please, ma’am.” A customer service agent might say, “Can I help you, ma’am?” But I would caution you against using “ma’am” ___ you’re sure it’s appropriate.",
-        "word": "unless",
+        "question": "So when a ___ hit in the early 1930s, massive windstorms blew the loose topsoil all over the region, covering towns and farms in thick dust.",
+        "word": "severe drought",
         "options": [
           {
-            "text": "in advance",
+            "text": "step out",
             "correct": false
           },
           {
-            "text": "unless",
+            "text": "severe drought",
             "correct": true
           },
           {
-            "text": "tricky",
+            "text": "whip",
             "correct": false
           },
           {
-            "text": "to motor west",
+            "text": "hit the jackpot",
             "correct": false
           }
         ]
       },
       {
-        "question": "They’re ___ to their favorite artists, following them through long, multi-decade careers.",
-        "word": "fiercely loyal",
-        "options": [
-          {
-            "text": "fiercely loyal",
-            "correct": true
-          },
-          {
-            "text": "swear word",
-            "correct": false
-          },
-          {
-            "text": "spreading",
-            "correct": false
-          },
-          {
-            "text": "cross our lips",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "___ you want to make just a single cup or fill a huge pot at a restaurant, the method is the same: hot water, grounds, filter, gravity.",
-        "word": "whether",
-        "options": [
-          {
-            "text": "grown-ups",
-            "correct": false
-          },
-          {
-            "text": "low-key",
-            "correct": false
-          },
-          {
-            "text": "standard",
-            "correct": false
-          },
-          {
-            "text": "whether",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "There is nothing like the feeling of the ___ stretching ahead of you on a clear morning.",
-        "word": "open road",
-        "options": [
-          {
-            "text": "hourglasses",
-            "correct": false
-          },
-          {
-            "text": "open road",
-            "correct": true
-          },
-          {
-            "text": "recognized",
-            "correct": false
-          },
-          {
-            "text": "trunk",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "It’s not a ___; it’s not profanity.",
-        "word": "swear word",
-        "options": [
-          {
-            "text": "coincided with",
-            "correct": false
-          },
-          {
-            "text": "open road",
-            "correct": false
-          },
-          {
-            "text": "implies",
-            "correct": false
-          },
-          {
-            "text": "swear word",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "Hot water passes over ground coffee beans, and ___ into a cup or a pot.",
-        "word": "drips",
-        "options": [
-          {
-            "text": "gambler",
-            "correct": false
-          },
-          {
-            "text": "profanity",
-            "correct": false
-          },
-          {
-            "text": "fellow",
-            "correct": false
-          },
-          {
-            "text": "drips",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "question": "They boiled water, poured it over ___, waited for the grounds to settle to the bottom, and sipped carefully.",
-        "word": "coffee grounds",
-        "options": [
-          {
-            "text": "thick dust",
-            "correct": false
-          },
-          {
-            "text": "coffee grounds",
-            "correct": true
-          },
-          {
-            "text": "spreading",
-            "correct": false
-          },
-          {
-            "text": "release",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Country tends to grab the ___ music world’s attention when stars cross over into pop and rock.",
-        "word": "wider",
+        "question": "It should never, ever, ever ___.",
+        "word": "cross our lips",
         "options": [
           {
             "text": "several",
             "correct": false
           },
           {
-            "text": "wider",
+            "text": "cross our lips",
             "correct": true
           },
           {
-            "text": "coherent",
+            "text": "swear word",
             "correct": false
           },
           {
-            "text": "whip",
+            "text": "pleases",
             "correct": false
           }
         ]
       },
       {
-        "question": "Country music is reaching new audiences, and some of its biggest songs are breaking out ___ the traditional fan base.",
-        "word": "well beyond",
+        "question": "A police office might say, “Step out of the car please, ma’am.” A customer service agent might say, “Can I help you, ma’am?” But I would caution you ___ using “ma’am” unless you’re sure it’s appropriate.",
+        "word": "against",
         "options": [
           {
-            "text": "well beyond",
+            "text": "meant",
+            "correct": false
+          },
+          {
+            "text": "several",
+            "correct": false
+          },
+          {
+            "text": "foam",
+            "correct": false
+          },
+          {
+            "text": "against",
             "correct": true
-          },
-          {
-            "text": "crowd",
-            "correct": false
-          },
-          {
-            "text": "trace the origin",
-            "correct": false
-          },
-          {
-            "text": "stretched",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Just ___ in the trunk and we can hit the road right away.",
-        "word": "throw your bags",
-        "options": [
-          {
-            "text": "halted",
-            "correct": false
-          },
-          {
-            "text": "trace the origin",
-            "correct": false
-          },
-          {
-            "text": "throw your bags",
-            "correct": true
-          },
-          {
-            "text": "evolved into",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "Drinking Turkish coffee can be ___ if you are not careful, because the grounds settle at the bottom.",
-        "word": "messy",
-        "options": [
-          {
-            "text": "messy",
-            "correct": true
-          },
-          {
-            "text": "made up",
-            "correct": false
-          },
-          {
-            "text": "criticized",
-            "correct": false
-          },
-          {
-            "text": "whip",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "question": "It’s especially popular in the ___ United States and in rural areas.",
-        "word": "southern",
-        "options": [
-          {
-            "text": "wider",
-            "correct": false
-          },
-          {
-            "text": "coherent",
-            "correct": false
-          },
-          {
-            "text": "southern",
-            "correct": true
-          },
-          {
-            "text": "wind up",
-            "correct": false
           }
         ]
       }
@@ -1861,330 +1861,341 @@
     "matching": [
       [
         {
-          "word": "tough",
-          "definition": "It can be tough to break a habit you have had for years, but consistency makes a real d…"
-        },
-        {
-          "word": "break down",
-          "definition": "Let me break down the main points of the lesson so they are easier to remember."
-        },
-        {
-          "word": "grab attention",
-          "definition": "People sometimes purposely use “ain’t” just to grab attention."
-        },
-        {
           "word": "grown-ups",
           "definition": "Here was proof that all the grown-ups in our lives had been lying to us the whole time."
         },
         {
-          "word": "stretched",
-          "definition": "The highway stretched for hundreds of miles through flat farmland with no towns in sight."
+          "word": "rural roots",
+          "definition": "They’re proud of their rural roots, and they like having music that reflects their valu…"
         },
         {
-          "word": "foam",
-          "definition": "Pour the rest of the coffee over that foam."
+          "word": "sipped carefully",
+          "definition": "They boiled water, poured it over coffee grounds, waited for the grounds to settle to t…"
+        },
+        {
+          "word": "rooted in",
+          "definition": "Country is a genre rooted in acoustic instruments and stories about everyday life—love,…"
+        },
+        {
+          "word": "bathroom tile",
+          "definition": "The acoustics with the bathroom tile were just a bonus ."
+        },
+        {
+          "word": "stepped in",
+          "definition": "But in the early 1920s, the federal government stepped in to standardize national roadw…"
         }
       ],
       [
         {
-          "word": "spread",
-          "definition": "The style spread across Europe and eventually around the world."
+          "word": "spreading",
+          "definition": "On one such tour, an American musician met Gilberto and started spreading the word once…"
         },
         {
-          "word": "brewed",
-          "definition": "She put the coffee grounds on top of the paper, poured hot water over the grounds, and …"
+          "word": "drip coffee",
+          "definition": "That became what we call “filter coffee” or “drip coffee.” Unlike espresso, which force…"
+        },
+        {
+          "word": "fled the drought",
+          "definition": "It was called the “Main Street of America.” John Steinbeck’s famous novel, “The Grapes …"
+        },
+        {
+          "word": "meant",
+          "definition": "That meant it could extract rich flavor from the beans without turning bitter like old …"
         },
         {
           "word": "coffee grounds",
           "definition": "They boiled water, poured it over coffee grounds, waited for the grounds to settle to t…"
         },
         {
-          "word": "leave behind",
-          "definition": "Dolly Parton said goodbye to someone she loved but had to leave behind."
-        },
-        {
-          "word": "gambler",
-          "definition": "Kenny Rogers sang about a veteran gambler giving advice to a fellow passenger on a lone…"
-        },
-        {
-          "word": "bathroom tile",
-          "definition": "The acoustics with the bathroom tile were just a bonus ."
+          "word": "criticized",
+          "definition": "It’s one of the few words that is common in daily speech, and yet is frequently critici…"
         }
       ],
       [
         {
-          "word": "hourglasses",
-          "definition": "Before mechanical clocks, people kept time with sundials, hourglasses, and church bells…"
+          "word": "step out",
+          "definition": "A police office might say, “Step out of the car please, ma’am.” A customer service agen…"
         },
         {
-          "word": "struggles",
-          "definition": "Country is a genre rooted in acoustic instruments and stories about everyday life—love,…"
+          "word": "for effect",
+          "definition": "You can use “ain’t” for effect."
         },
         {
-          "word": "bitter",
-          "definition": "That meant it could extract rich flavor from the beans without turning bitter like old …"
+          "word": "undergoing",
+          "definition": "Bossa nova was the perfect style for the sophisticated crowd in the cafés and bars of R…"
+        },
+        {
+          "word": "low-key",
+          "definition": "But it was low-key : unlike jazz, which was high-energy , bossa nova was typically play…"
+        },
+        {
+          "word": "leave behind",
+          "definition": "Dolly Parton said goodbye to someone she loved but had to leave behind."
+        },
+        {
+          "word": "soothing",
+          "definition": "Many people find the ritual of making a slow cup of coffee surprisingly soothing after …"
+        }
+      ],
+      [
+        {
+          "word": "at any given point",
+          "definition": "There’s usually only one or at most two things going on in a song at any given point ."
+        },
+        {
+          "word": "whether",
+          "definition": "Whether you want to make just a single cup or fill a huge pot at a restaurant, the meth…"
+        },
+        {
+          "word": "beverage",
+          "definition": "In this story, we’ll take a world tour of the different ways to produce the world’s sec…"
+        },
+        {
+          "word": "cross our lips",
+          "definition": "It should never, ever, ever cross our lips."
+        },
+        {
+          "word": "headquartered",
+          "definition": "All the major country music labels are headquartered along Nashville’s Music Row."
+        },
+        {
+          "word": "unlike",
+          "definition": "But it was low-key : unlike jazz, which was high-energy , bossa nova was typically play…"
+        }
+      ],
+      [
+        {
+          "word": "messy",
+          "definition": "It was a slow, messy process."
+        },
+        {
+          "word": "reached",
+          "definition": "In the 1990s, for example, country singers Garth Brooks and Shania Twain reached the to…"
+        },
+        {
+          "word": "caution you against",
+          "definition": "A police office might say, “Step out of the car please, ma’am.” A customer service agen…"
+        },
+        {
+          "word": "standardize",
+          "definition": "But in the early 1920s, the federal government stepped in to standardize national roadw…"
+        },
+        {
+          "word": "music labels",
+          "definition": "All the major country music labels are headquartered along Nashville’s Music Row."
+        },
+        {
+          "word": "release",
+          "definition": "Now, though, some artists are going the other way: they start as pop stars, and then re…"
+        }
+      ],
+      [
+        {
+          "word": "tough",
+          "definition": "The coffee was so tough and bitter that even the most devoted drinkers added sugar to s…"
+        },
+        {
+          "word": "whip",
+          "definition": "Add just the first few drops of coffee as it brews, then whip it vigorously until it tu…"
+        },
+        {
+          "word": "pack a cooler",
+          "definition": "On a great American road trip, you throw your bags in the trunk, pack a cooler of lunch…"
+        },
+        {
+          "word": "throw your bags",
+          "definition": "On a great American road trip, you throw your bags in the trunk, pack a cooler of lunch…"
         },
         {
           "word": "dozens",
           "definition": "First, speed—a café could serve dozens of customers an hour instead of making them wait."
         },
         {
-          "word": "at any given point",
-          "definition": "There’s usually only one or at most two things going on in a song at any given point ."
-        },
-        {
-          "word": "charts",
-          "definition": "The genre has its own charts and dedicated radio stations."
-        }
-      ],
-      [
-        {
-          "word": "nonstandard",
-          "definition": "Most authority figures in language say you shouldn’t use the word “ain’t.” Dictionaries…"
-        },
-        {
-          "word": "release",
-          "definition": "Now, though, some artists are going the other way: they start as pop stars, and then re…"
-        },
-        {
-          "word": "swear word",
-          "definition": "It’s not a swear word; it’s not profanity."
-        },
-        {
-          "word": "airplay",
-          "definition": "Only a small percentage of “country” songs get airplay on pop or rock stations."
-        },
-        {
-          "word": "evolved into",
-          "definition": "Before, it was only country stars who evolved into pop stars."
-        },
-        {
-          "word": "in advance",
-          "definition": "Lana Del Rey has released two country songs in advance of an all-country album expected…"
-        }
-      ],
-      [
-        {
-          "word": "criticized",
-          "definition": "It’s one of the few words that is common in daily speech, and yet is frequently critici…"
-        },
-        {
-          "word": "proved useful",
-          "definition": "That proved useful just a few years later during World War II, when large trucks transp…"
-        },
-        {
-          "word": "come across",
-          "definition": "She came across her old diary while cleaning out the attic and spent the afternoon read…"
-        },
-        {
-          "word": "tricky",
-          "definition": "Pronouncing words in a new language can be tricky at first, but it gets easier with pra…"
-        },
-        {
-          "word": "church bells",
-          "definition": "Before mechanical clocks, people kept time with sundials, hourglasses, and church bells…"
-        },
-        {
-          "word": "standardize",
-          "definition": "But in the early 1920s, the federal government stepped in to standardize national roadw…"
-        }
-      ],
-      [
-        {
-          "word": "sludge",
-          "definition": "Boil it all together, pour into small cups, and sip carefully—leaving the sludge at the…"
-        },
-        {
-          "word": "unless",
-          "definition": "A police office might say, “Step out of the car please, ma’am.” A customer service agen…"
-        },
-        {
-          "word": "timekeeping",
-          "definition": "The origin of “o’clock” goes back to the early days of mechanical timekeeping."
-        },
-        {
-          "word": "breakout",
-          "definition": "It won the Grammy for record of the year in 1965 and included the breakout hit , “The G…"
-        },
-        {
-          "word": "made up",
-          "definition": "But many of the individual sections of roadway that once made up Route 66 are still the…"
-        },
-        {
-          "word": "hit the jackpot",
-          "definition": "Luke Combs hit the jackpot when his interpretation of “Fast Car” became an internationa…"
+          "word": "proof",
+          "definition": "Here was proof that all the grown-ups in our lives had been lying to us the whole time."
         }
       ]
     ],
     "sentence_order": [
       {
-        "sentence": "Quick hello to a few listeners.",
+        "sentence": "Jeff’s take When Route 66 became a popular tourist road, entrepreneurs competed for their attention.",
         "shuffled": [
-          "hello",
-          "few",
-          "listeners.",
-          "Quick",
+          "Route",
+          "tourist",
+          "attention.",
+          "When",
+          "entrepreneurs",
+          "66",
           "a",
-          "to"
-        ]
-      },
-      {
-        "sentence": "But now things are starting to change.",
-        "shuffled": [
-          "But",
-          "now",
-          "change.",
-          "things",
-          "to",
-          "starting",
-          "are"
-        ]
-      },
-      {
-        "sentence": "2 / 4 https://www.plainenglish.com/ Getz/Gilberto was one of the highest-selling jazz albums of all time.",
-        "shuffled": [
-          "albums",
-          "time.",
-          "of",
-          "Getz/Gilberto",
-          "2",
-          "jazz",
-          "4",
-          "the",
-          "/",
-          "of",
-          "was",
-          "one",
-          "https://www.plainenglish.com/",
-          "all",
-          "highest-selling"
-        ]
-      },
-      {
-        "sentence": "Garth Brooks sang about a man who looked back on a woman who broke his heart.",
-        "shuffled": [
-          "heart.",
-          "a",
-          "about",
-          "on",
-          "man",
-          "a",
-          "Brooks",
-          "Garth",
-          "his",
-          "who",
-          "broke",
-          "back",
-          "sang",
-          "looked",
-          "who",
-          "woman"
-        ]
-      },
-      {
-        "sentence": "But they gave me an americano, which is just espresso mixed with hot water.",
-        "shuffled": [
-          "americano,",
-          "espresso",
-          "mixed",
-          "which",
-          "an",
-          "they",
-          "is",
-          "gave",
-          "just",
-          "me",
-          "hot",
-          "with",
-          "But",
-          "water."
-        ]
-      },
-      {
-        "sentence": "Today is episode 177 and all the resources for this episode can be found at PlainEnglish.com/177.",
-        "shuffled": [
-          "the",
-          "177",
           "for",
-          "resources",
-          "be",
-          "all",
-          "can",
-          "and",
-          "this",
-          "episode",
-          "PlainEnglish.com/177.",
-          "at",
-          "episode",
-          "Today",
-          "found",
-          "is"
+          "their",
+          "Jeff’s",
+          "road,",
+          "became",
+          "take",
+          "competed",
+          "popular"
         ]
       },
       {
-        "sentence": "Artists are quick to engage with fans on social media.",
+        "sentence": "In 1938, Route 66 became the first fully paved highway in the United States.",
         "shuffled": [
-          "Artists",
-          "quick",
-          "to",
-          "are",
-          "media.",
-          "fans",
-          "engage",
-          "with",
-          "social",
-          "on"
+          "66",
+          "1938,",
+          "in",
+          "paved",
+          "United",
+          "In",
+          "first",
+          "States.",
+          "the",
+          "highway",
+          "the",
+          "became",
+          "Route",
+          "fully"
         ]
       },
       {
-        "sentence": "There is a stigma to the word “ain’t.” Many people say it’s wrong or incorrect to use.",
+        "sentence": "That’s a good one; that was from a soundtrack.",
         "shuffled": [
-          "to",
-          "Many",
-          "is",
-          "There",
-          "to",
-          "“ain’t.”",
-          "it’s",
-          "say",
-          "people",
-          "wrong",
-          "or",
-          "use.",
-          "incorrect",
-          "word",
-          "stigma",
           "a",
-          "the"
+          "from",
+          "a",
+          "good",
+          "soundtrack.",
+          "That’s",
+          "that",
+          "one;",
+          "was"
         ]
       },
       {
-        "sentence": "The city is home to almost 200 recording studios.",
+        "sentence": "Condensed milk goes in the cup first, then you pour hot water over the grounds.",
+        "shuffled": [
+          "cup",
+          "pour",
+          "you",
+          "first,",
+          "milk",
+          "Condensed",
+          "the",
+          "goes",
+          "water",
+          "then",
+          "over",
+          "hot",
+          "the",
+          "grounds.",
+          "in"
+        ]
+      },
+      {
+        "sentence": "The music became popular outside Brazil, too.",
         "shuffled": [
           "The",
-          "is",
-          "home",
-          "200",
-          "almost",
-          "recording",
-          "studios.",
-          "city",
+          "too.",
+          "music",
+          "Brazil,",
+          "outside",
+          "popular",
+          "became"
+        ]
+      },
+      {
+        "sentence": "For many fans, country music isn’t just a genre—it’s a reflection of their values and way of life.",
+        "shuffled": [
+          "a",
+          "fans,",
+          "a",
+          "way",
+          "genre—it’s",
+          "reflection",
+          "of",
+          "just",
+          "For",
+          "their",
+          "many",
+          "isn’t",
+          "values",
+          "country",
+          "life.",
+          "and",
+          "of",
+          "music"
+        ]
+      },
+      {
+        "sentence": "You have to do it in an hour.",
+        "shuffled": [
+          "have",
+          "do",
+          "in",
+          "it",
+          "You",
+          "hour.",
+          "an",
           "to"
         ]
       },
       {
-        "sentence": "She was laughing; this probably happened to her every year.",
+        "sentence": "That is Cuban 2 / 3 https://www.plainenglish.com/ coffee.",
         "shuffled": [
-          "She",
-          "probably",
-          "her",
-          "this",
-          "laughing;",
-          "every",
-          "was",
-          "year.",
-          "to",
-          "happened"
+          "/",
+          "That",
+          "https://www.plainenglish.com/",
+          "coffee.",
+          "is",
+          "3",
+          "2",
+          "Cuban"
+        ]
+      },
+      {
+        "sentence": "Transcript Route 66 and the American road trip It’s no secret that Americans are in love with their cars.",
+        "shuffled": [
+          "cars.",
+          "secret",
+          "with",
+          "It’s",
+          "the",
+          "are",
+          "no",
+          "and",
+          "road",
+          "Transcript",
+          "66",
+          "Route",
+          "that",
+          "trip",
+          "love",
+          "American",
+          "in",
+          "Americans",
+          "their"
+        ]
+      },
+      {
+        "sentence": "And I think these days the table is live streamed, so your meal is broadcast over the internet.",
+        "shuffled": [
+          "these",
+          "days",
+          "is",
+          "your",
+          "I",
+          "internet.",
+          "so",
+          "table",
+          "broadcast",
+          "think",
+          "And",
+          "streamed,",
+          "the",
+          "is",
+          "live",
+          "the",
+          "meal",
+          "over"
         ]
       }
     ]

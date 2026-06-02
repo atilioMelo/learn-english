@@ -159,27 +159,47 @@ def clean_sentence(s: str) -> str:
 
 def find_sentences(text: str, word: str, max_results: int = 3) -> list:
     """Encontra sentenças no texto que contenham a palavra (match de palavra inteira)."""
+    # Remove artefatos de URL/paginação injetados pelos PDFs do plainenglish.com
+    # antes de qualquer processamento, para não descartar frases legítimas
+    text = re.sub(r"\d+\s*/\s*\d+\s*https?://\S*", "", text)
+    text = re.sub(r"https?://\S*", "", text)
+    text = re.sub(r"www\.\S*", "", text)
     # Normaliza o texto antes de buscar
     clean = re.sub(r"[\r\n]+", " ", text)
     clean = re.sub(r" {2,}", " ", clean)
-    sentences  = re.split(r"(?<=[.!?])\s+", clean)
+    sentences = re.split(r"(?<=[.!?])\s+", clean)
+
     word_lower = word.lower()
-    # Usa \b só para palavras simples; expressões multi-palavra usam contains
-    is_phrase   = " " in word.strip()
+    # Candidatos de busca: palavra original + sem prefixo "to " (infinitivo)
+    search_terms = [word_lower]
+    if word_lower.startswith("to "):
+        search_terms.append(word_lower[3:])
+
     matches = []
     for s in sentences:
         s_clean = s.strip()
         if not (15 < len(s_clean) < 300):
             continue
-        # Descarta frases com URLs, numeração de página ou artefatos de PDF
-        if re.search(r"https?://|www\.|\.com|\.pdf|\d\s*/\s*\d", s_clean, re.IGNORECASE):
+        # Descarta apenas artefatos de PDF residuais (numeração de página, .pdf)
+        if re.search(r"\.pdf|\d\s*/\s*\d", s_clean, re.IGNORECASE):
             continue
-        if is_phrase:
-            if word_lower in s_clean.lower():
-                matches.append(s_clean)
-        else:
-            if re.search(r"\b" + re.escape(word_lower) + r"\b", s_clean.lower()):
-                matches.append(s_clean)
+        # Normaliza hífens para comparação (powder-like == powder like)
+        s_norm = s_clean.lower().replace("-", " ")
+        found = False
+        for term in search_terms:
+            term_norm = term.replace("-", " ")
+            if " " in term_norm:
+                # Expressão multi-palavra: busca como substring normalizada
+                if term_norm in s_norm:
+                    found = True
+                    break
+            else:
+                # Palavra simples: respeita limites de palavra
+                if re.search(r"\b" + re.escape(term_norm) + r"\b", s_norm):
+                    found = True
+                    break
+        if found:
+            matches.append(s_clean)
     return matches[:max_results]
 
 
