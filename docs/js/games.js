@@ -442,7 +442,10 @@ function renderFillBlanks(exercises) {
           new RegExp('(' + ex.answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'),
           '<strong>$1</strong>'
         );
-        feedback.innerHTML = `💡 <span class="hint-context">${highlighted}</span>`;
+        // Keep translation from step 1 and add context below
+        const prevTranslation = feedback.querySelector('.hint-translation')?.outerHTML ?? '';
+        feedback.innerHTML = (prevTranslation ? `💡 ${prevTranslation}<br>` : '') +
+          `💡 <span class="hint-context">${highlighted}</span>`;
         feedback.className = 'feedback-msg hint';
         hintBtn.textContent = 'Show answer';
         input.focus();
