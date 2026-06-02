@@ -1,0 +1,1732 @@
+{
+  "module": 1,
+  "title": "Module 01",
+  "episodes": [
+    {
+      "filename": "Lesson#177.pdf",
+      "title": "Lesson#177"
+    },
+    {
+      "filename": "Lesson#288.pdf",
+      "title": "Lesson#288"
+    },
+    {
+      "filename": "Lesson#753.pdf",
+      "title": "Lesson#753"
+    },
+    {
+      "filename": "Lesson#793.pdf",
+      "title": "Lesson#793"
+    },
+    {
+      "filename": "Lesson#841.pdf",
+      "title": "Lesson#841"
+    }
+  ],
+  "vocab_count": 117,
+  "activities": {
+    "flashcards": [
+      {
+        "word": "come across",
+        "definition": "to find or meet something/someone by chance, unexpectedly",
+        "translation": "se deparar com, encontrar por acaso",
+        "example": "I came across a great article about English learning.",
+        "episode": "Episode 01"
+      },
+      {
+        "word": "keep up with",
+        "definition": "to stay informed about something; to maintain the same pace as someone or something",
+        "translation": "acompanhar, manter-se atualizado sobre",
+        "example": "It is hard to keep up with the news every day.",
+        "episode": "Episode 02"
+      },
+      {
+        "word": "break down",
+        "definition": "to stop working (machine/vehicle); to separate something into smaller parts; to lose emotional control",
+        "translation": "quebrar, parar de funcionar; dividir em partes; desabar emocionalmente",
+        "example": "",
+        "episode": "Episode 03"
+      },
+      {
+        "word": "throw your bags",
+        "definition": "to quickly pack your luggage and put it in a vehicle, ready for a trip",
+        "translation": "jogar as malas (no carro), despachar a bagagem rapidamente",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "trunk",
+        "definition": "the storage compartment at the back of a car (American English); called 'boot' in British English",
+        "translation": "porta-malas (do carro)",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "pack a cooler",
+        "definition": "to fill an insulated container with ice and food/drinks to keep them cold during a trip",
+        "translation": "encher uma caixa térmica com gelo e bebidas/comidas",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "open road",
+        "definition": "a long, clear stretch of road with no traffic, symbolizing freedom and adventure",
+        "translation": "estrada aberta, rodovia livre — símbolo de liberdade e aventura",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "wind up",
+        "definition": "to end up in a place or situation, often unexpectedly; also to finish or conclude something",
+        "translation": "acabar em, terminar em (um lugar ou situação inesperada); encerrar algo",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "diverse",
+        "definition": "varied, showing a great deal of variety; having many different kinds (note: likely a typo for 'diverse')",
+        "translation": "diverso, variado, com muitos tipos diferentes",
+        "example": "Streaming is also opening the door for more diverse artists and fans.",
+        "episode": ""
+      },
+      {
+        "word": "trace the origin",
+        "definition": "to find or follow the history of something back to its beginning or source",
+        "translation": "rastrear a origem, investigar de onde algo vem",
+        "example": "You can trace the origin of this love story back one hundred years exactly, to the founding of Route 66.",
+        "episode": ""
+      },
+      {
+        "word": "stitched together",
+        "definition": "to join separate pieces or parts into a whole, like sewing fabric together",
+        "translation": "costurado junto, unido — como peças separadas formando um todo",
+        "example": "Private associations stitched together roads and marketed them to travelers, all to help improve business along the road.",
+        "episode": ""
+      },
+      {
+        "word": "stepped in",
+        "definition": "to become involved in a situation, especially to help or take control",
+        "translation": "intervir, entrar em ação para ajudar ou assumir o controle",
+        "example": "But in the early 1920s, the federal government stepped in to standardize national roadways.",
+        "episode": ""
+      },
+      {
+        "word": "standardize",
+        "definition": "to make things uniform, following the same rules or model (note: typo for 'standardize')",
+        "translation": "padronizar, uniformizar, seguir um mesmo modelo ou regra",
+        "example": "But in the early 1920s, the federal government stepped in to standardize national roadways.",
+        "episode": ""
+      },
+      {
+        "word": "coherent",
+        "definition": "logical, consistent, and easy to understand; forming a unified whole",
+        "translation": "coerente, lógico, fácil de entender",
+        "example": "Now, they would have a coherent, easy-to-use system of national highways.",
+        "episode": ""
+      },
+      {
+        "word": "struck",
+        "definition": "past tense of 'strike'; to hit or affect something suddenly and with force (e.g. a disaster strikes a region)",
+        "translation": "atingiu, golpeou — passado de 'strike'; afetou de forma súbita",
+        "example": "The Dust Bowl was a ten-year environmental disaster that struck the Great Plains, in the middle of the country.",
+        "episode": ""
+      },
+      {
+        "word": "severe drought",
+        "definition": "an extreme and prolonged period with little or no rainfall, causing serious damage",
+        "translation": "seca severa, período prolongado de falta de chuva",
+        "example": "So when a severe drought hit in the early 1930s, massive windstorms blew the loose topsoil all over the region, covering towns and farms in thick dust.",
+        "episode": ""
+      },
+      {
+        "word": "thick dust",
+        "definition": "a heavy layer of fine dry particles covering surfaces, often from wind or dry conditions",
+        "translation": "poeira densa, camada grossa de partículas finas no ar ou nas superfícies",
+        "example": "So when a severe drought hit in the early 1930s, massive windstorms blew the loose topsoil all over the region, covering towns and farms in thick dust.",
+        "episode": ""
+      },
+      {
+        "word": "coincided with",
+        "definition": "to happen at the same time as something else",
+        "translation": "coincidiu com, aconteceu ao mesmo tempo que",
+        "example": "The Dust Bowl coincided with an economic depression.",
+        "episode": ""
+      },
+      {
+        "word": "fully paved",
+        "definition": "completely covered with a hard surface (asphalt or concrete), making it suitable for vehicles",
+        "translation": "completamente asfaltado, com pavimentação total",
+        "example": "In 1938, Route 66 became the first fully paved highway in the United States.",
+        "episode": ""
+      },
+      {
+        "word": "proved useful",
+        "definition": "turned out to be helpful or practical in a real situation",
+        "translation": "se mostrou útil, revelou-se prático em uma situação real",
+        "example": "That proved useful just a few years later during World War II, when large trucks transported military munitions from the ports in California to the factories in the Midwest and the eastern United States.",
+        "episode": ""
+      },
+      {
+        "word": "factories",
+        "definition": "large buildings where goods are manufactured or assembled using machines and workers",
+        "translation": "fábricas, indústrias",
+        "example": "That proved useful just a few years later during World War II, when large trucks transported military munitions from the ports in California to the factories in the Midwest and the eastern United States.",
+        "episode": ""
+      },
+      {
+        "word": "wealth",
+        "definition": "a large amount of money, assets, or valuable possessions; prosperity",
+        "translation": "riqueza, prosperidade, grande quantidade de bens ou dinheiro",
+        "example": "After World War II, Americans had the wealth to own their own cars, and the family road trip became a popular option for middle-class vacations.",
+        "episode": ""
+      },
+      {
+        "word": "neon signs",
+        "definition": "glowing signs made with neon gas in glass tubes, commonly used by businesses for advertising",
+        "translation": "letreiros de néon, placas luminosas coloridas usadas em estabelecimentos",
+        "example": "Route 66 transformed itself into a linear tourist destination, with neon signs, roadside attractions, campgrounds, and family-friendly motels with swimming pools.",
+        "episode": ""
+      },
+      {
+        "word": "fled the drought",
+        "definition": "escaped from the devastating drought by moving away from the affected area",
+        "translation": "fugiu da seca, escapou da região devastada pela estiagem",
+        "example": "It was called the “Main Street of America.” John Steinbeck’s famous novel, “The Grapes of Wrath” traced a Dust Bowl-era family as it fled the drought along Route 66.",
+        "episode": ""
+      },
+      {
+        "word": "to motor west",
+        "definition": "to drive westward; to travel by car towards the west",
+        "translation": "dirigir em direção ao oeste, viajar de carro para o oeste",
+        "example": "“If you ever plan to motor west,” he sings, “Take the highway that’s the best.” Later, a TV show called simply “Route 66” brought the road into American living rooms every week.",
+        "episode": ""
+      },
+      {
+        "word": "no longer",
+        "definition": "not anymore; used to say that something which was true in the past is not true now",
+        "translation": "não mais, já não — algo que era verdade no passado mas não é mais",
+        "example": "Route 66 is no longer the best way to motor west, from Chicago to LA, like it was in Nat King Cole’s time.",
+        "episode": ""
+      },
+      {
+        "word": "made up",
+        "definition": "invented; not real; consisting of certain parts (note: typo for 'made up')",
+        "translation": "inventado, fictício; composto por certas partes",
+        "example": "But many of the individual sections of roadway that once made up Route 66 are still there—and some stretches remain popular with tourists.",
+        "episode": ""
+      },
+      {
+        "word": "stretched",
+        "definition": "extended over a long distance or period of time",
+        "translation": "se estendia, se espalhava por uma longa distância ou período",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "refurbish",
+        "definition": "to clean, repair, and renovate a building or object to restore it to good condition",
+        "translation": "reformar, renovar, restaurar algo ao seu bom estado original",
+        "example": "The city of Albuquerque, New Mexico, is helping to pay to refurbish the neon signs on its 18 miles of Route 66.",
+        "episode": ""
+      },
+      {
+        "word": "rooted in",
+        "definition": "having its origins or basis in something; deeply connected to",
+        "translation": "enraizado em, tendo suas origens em",
+        "example": "Country is a genre rooted in acoustic instruments and stories about everyday life—love, loss, and small- town struggles.",
+        "episode": ""
+      },
+      {
+        "word": "struggles",
+        "definition": "difficulties, challenges, or hard efforts to achieve something",
+        "translation": "lutas, dificuldades, desafios do dia a dia",
+        "example": "Country is a genre rooted in acoustic instruments and stories about everyday life—love, loss, and small- town struggles.",
+        "episode": ""
+      },
+      {
+        "word": "southern",
+        "definition": "located in, coming from, or characteristic of the south of a country or region",
+        "translation": "sulista, do sul, característico do sul de um país ou região",
+        "example": "It’s especially popular in the southern United States and in rural areas.",
+        "episode": ""
+      },
+      {
+        "word": "gambler",
+        "definition": "a person who bets money on games, races, or uncertain outcomes",
+        "translation": "jogador, apostador; pessoa que aposta dinheiro em jogos ou corridas",
+        "example": "Kenny Rogers sang about a veteran gambler giving advice to a fellow passenger on a lonely train ride.",
+        "episode": ""
+      },
+      {
+        "word": "fellow",
+        "definition": "used informally to mean a person; also an adjective meaning 'sharing the same activity or situation' (e.g. a fellow passenger)",
+        "translation": "sujeito, cara; também adjetivo: companheiro, colega (ex: fellow passenger = colega de viagem)",
+        "example": "Kenny Rogers sang about a veteran gambler giving advice to a fellow passenger on a lonely train ride.",
+        "episode": ""
+      },
+      {
+        "word": "leave behind",
+        "definition": "to go away from a place or person; to not take someone or something with you when you leave",
+        "translation": "deixar para trás, não levar consigo ao partir",
+        "example": "Dolly Parton said goodbye to someone she loved but had to leave behind.",
+        "episode": ""
+      },
+      {
+        "word": "airplay",
+        "definition": "the broadcasting of a song or music on the radio or on a streaming platform",
+        "translation": "execução em rádio ou plataformas de streaming; tempo de antena para músicas",
+        "example": "Only a small percentage of “country” songs get airplay on pop or rock stations.",
+        "episode": ""
+      },
+      {
+        "word": "music labels",
+        "definition": "companies that produce and distribute music recordings (e.g. Universal Music, Sony Music)",
+        "translation": "gravadoras, selos musicais — empresas que produzem e distribuem música",
+        "example": "All the major country music labels are headquartered along Nashville’s Music Row.",
+        "episode": ""
+      },
+      {
+        "word": "headquartered",
+        "definition": "having the main office or center of operations located in a specific place",
+        "translation": "sediado em, tendo a sede principal localizada em determinado lugar",
+        "example": "All the major country music labels are headquartered along Nashville’s Music Row.",
+        "episode": ""
+      },
+      {
+        "word": "selling out",
+        "definition": "selling all available tickets or products; also informally, abandoning one's principles for commercial success",
+        "translation": "esgotando ingressos/produtos; popularmente: abrir mão dos princípios por dinheiro",
+        "example": "You can certainly find country music stars selling out arenas.",
+        "episode": ""
+      },
+      {
+        "word": "country fairs",
+        "definition": "outdoor events held in rural areas with games, farm animals, food stalls, and entertainment",
+        "translation": "feiras rurais, festas de interior com animais, comidas e entretenimento",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "rural roots",
+        "definition": "origins or background connected to the countryside, farming communities, and small-town life",
+        "translation": "raízes rurais, origem ligada ao campo e ao interior",
+        "example": "They’re proud of their rural roots, and they like having music that reflects their values and lifestyles.",
+        "episode": ""
+      },
+      {
+        "word": "fiercely loyal",
+        "definition": "extremely devoted and committed to a person, cause or value — defending it with great intensity and unwavering dedication (note: typo for 'fiercely loyal')",
+        "translation": "ferozmente leal — ter um compromisso profundo e inabalável com pessoas, causas ou valores. Envolve dedicação, proteção intensa e apoio constante.",
+        "example": "They’re fiercely loyal to their favorite artists, following them through long, multi-decade careers.",
+        "episode": ""
+      },
+      {
+        "word": "wider",
+        "definition": "broader; affecting or reaching a larger group of people or area",
+        "translation": "mais amplo, mais abrangente; que alcança um público ou área maior",
+        "example": "Country tends to grab the wider music world’s attention when stars cross over into pop and rock.",
+        "episode": ""
+      },
+      {
+        "word": "cross over",
+        "definition": "to move from one genre, field, or category to another (e.g. a country artist crossing over to pop)",
+        "translation": "fazer crossover, migrar de um gênero musical (ou área) para outro",
+        "example": "Country tends to grab the wider music world’s attention when stars cross over into pop and rock.",
+        "episode": ""
+      },
+      {
+        "word": "reached",
+        "definition": "arrived at; achieved; got to a certain level (e.g. reaching the top of the charts)",
+        "translation": "alcançou, chegou a — atingiu um determinado nível ou resultado",
+        "example": "In the 1990s, for example, country singers Garth Brooks and Shania Twain reached the top of the charts in both country and pop formats.",
+        "episode": ""
+      },
+      {
+        "word": "charts",
+        "definition": "ranked lists of the most popular songs or albums, based on sales and streaming numbers",
+        "translation": "paradas musicais, rankings das músicas e álbuns mais populares",
+        "example": "The genre has its own charts and dedicated radio stations.",
+        "episode": ""
+      },
+      {
+        "word": "well beyond",
+        "definition": "much further than; extending far past a certain limit or boundary",
+        "translation": "muito além de, bem além dos limites ou fronteiras tradicionais",
+        "example": "Country music is reaching new audiences, and some of its biggest songs are breaking out well beyond the traditional fan base.",
+        "episode": ""
+      },
+      {
+        "word": "evolved into",
+        "definition": "gradually changed and developed into something different over time",
+        "translation": "evoluiu para, transformou-se gradualmente em algo diferente",
+        "example": "Before, it was only country stars who evolved into pop stars.",
+        "episode": ""
+      },
+      {
+        "word": "release",
+        "definition": "to make a song, album, or product available to the public",
+        "translation": "lançar (uma música, álbum ou produto) ao público",
+        "example": "Now, though, some artists are going the other way: they start as pop stars, and then release a country album.",
+        "episode": ""
+      },
+      {
+        "word": "might never",
+        "definition": "used to express that something was unlikely or would probably not happen under normal circumstances",
+        "translation": "talvez nunca, provavelmente não faria isso em circunstâncias normais",
+        "example": "It introduced country themes to millions of music fans who might never have given country a second thought.",
+        "episode": ""
+      },
+      {
+        "word": "second thought",
+        "definition": "to give something 'a second thought' means to reconsider it or think about it more carefully (note: typo for 'second thought')",
+        "translation": "dar uma segunda olhada, reconsiderar algo; pensar novamente antes de decidir",
+        "example": "It introduced country themes to millions of music fans who might never have given country a second thought.",
+        "episode": ""
+      },
+      {
+        "word": "went on to",
+        "definition": "continued and eventually achieved something after the previous action",
+        "translation": "continuou e posteriormente alcançou algo; passou a fazer",
+        "example": "“Cowboy Carter” went on to win the Grammy Award for Album of the Year in 2025.",
+        "episode": ""
+      },
+      {
+        "word": "in advance",
+        "definition": "before a particular time or event; ahead of time",
+        "translation": "com antecedência, antes de um determinado evento ou prazo",
+        "example": "Lana Del Rey has released two country songs in advance of an all-country album expected soon.",
+        "episode": ""
+      },
+      {
+        "word": "hit the jackpot",
+        "definition": "to have great success or achieve something very lucky, often unexpectedly",
+        "translation": "ganhar na loteria; ter um grande sucesso inesperado",
+        "example": "Luke Combs hit the jackpot when his interpretation of “Fast Car” became an international hit.",
+        "episode": ""
+      },
+      {
+        "word": "not otherwise",
+        "definition": "not in any other situation or circumstances; used to describe something that wouldn't happen normally",
+        "translation": "não de outra forma; que não aconteceria em circunstâncias normais",
+        "example": "Streaming algorithms often help fans of pop, rock, and R&B discover country songs they would not otherwise have had exposure to.",
+        "episode": ""
+      },
+      {
+        "word": "pleases",
+        "definition": "satisfies or makes happy; to please an algorithm means to create content that performs well on platforms",
+        "translation": "agrada, satisfaz; 'agradar o algoritmo' = criar conteúdo que performa bem nas plataformas",
+        "example": "But streaming also puts pressure on artists to engage with their fans on social media and to make music that pleases the algorithms.",
+        "episode": ""
+      },
+      {
+        "word": "beverage",
+        "definition": "any drink, especially one that is not water (e.g. coffee, tea, juice)",
+        "translation": "bebida — qualquer líquido para consumo, exceto água pura",
+        "example": "In this story, we’ll take a world tour of the different ways to produce the world’s second-most-popular hot beverage.",
+        "episode": ""
+      },
+      {
+        "word": "poured",
+        "definition": "past tense of 'pour'; to cause a liquid to flow from a container into another",
+        "translation": "despejou, serviu um líquido de um recipiente para outro",
+        "example": "They boiled water, poured it over coffee grounds, waited for the grounds to settle to the bottom, and sipped carefully.",
+        "episode": ""
+      },
+      {
+        "word": "coffee grounds",
+        "definition": "the solid residue of coffee beans left after brewing; the small particles of ground coffee",
+        "translation": "borra de café, resíduo sólido do café moído após o preparo",
+        "example": "They boiled water, poured it over coffee grounds, waited for the grounds to settle to the bottom, and sipped carefully.",
+        "episode": ""
+      },
+      {
+        "word": "sipped carefully",
+        "definition": "drank slowly and in small amounts, with caution",
+        "translation": "bebericou com cuidado, tomou pequenos goles com atenção",
+        "example": "They boiled water, poured it over coffee grounds, waited for the grounds to settle to the bottom, and sipped carefully.",
+        "episode": ""
+      },
+      {
+        "word": "to sip",
+        "definition": "to drink something slowly, taking small amounts at a time",
+        "translation": "beber aos goles, tomar de pouquinho em pouquinho",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "drip coffee",
+        "definition": "a method of brewing coffee where hot water drips slowly through ground coffee into a pot or cup; also called filter coffee",
+        "translation": "café coado, café filtrado — o método em que a água quente passa pela borra com ajuda da gravidade",
+        "example": "That became what we call “filter coffee” or “drip coffee.” Unlike espresso, which forces hot water under pressure, filter coffee just uses gravity.",
+        "episode": ""
+      },
+      {
+        "word": "messy",
+        "definition": "untidy, dirty, or disorganized; complicated and difficult to deal with",
+        "translation": "bagunçado, sujo, desorganizado; complicado e difícil de lidar",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "gritty taste",
+        "definition": "an unpleasant rough, sandy texture in your mouth when drinking or eating",
+        "translation": "gosto arenoso, sensação áspera e granulada na boca",
+        "example": "People didn’t like the gritty taste of grounds in the bottom of their cups, and it took a long time to make.",
+        "episode": ""
+      },
+      {
+        "word": "finely-ground",
+        "definition": "reduced to very small particles, almost like powder",
+        "translation": "finamente moído, triturado até virar quase um pó",
+        "example": "The machine forced hot water under pressure through finely-ground coffee.",
+        "episode": ""
+      },
+      {
+        "word": "dozens",
+        "definition": "groups of twelve; informally used to mean 'a large number' of something",
+        "translation": "dúzias; informalmente: grande quantidade de algo",
+        "example": "First, speed—a café could serve dozens of customers an hour instead of making them wait.",
+        "episode": ""
+      },
+      {
+        "word": "tough",
+        "definition": "difficult; requiring a lot of effort; also strong and durable",
+        "translation": "difícil, trabalhoso; resistente, durável; também: severo, duro",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "bitter",
+        "definition": "having a sharp, unpleasant taste (like dark coffee or dark chocolate); also feeling angry or resentful",
+        "translation": "amargo (sabor); também: ressentido, amargurado emocionalmente",
+        "example": "That meant it could extract rich flavor from the beans without turning bitter like old boiled coffee.",
+        "episode": ""
+      },
+      {
+        "word": "spread",
+        "definition": "to gradually reach a wider area or more people over time",
+        "translation": "espalhou-se, difundiu-se por uma área ou grupo maior ao longo do tempo",
+        "example": "The style spread across Europe and eventually around the world.",
+        "episode": ""
+      },
+      {
+        "word": "folded",
+        "definition": "past tense of 'fold'; to bend something over itself (e.g. folding paper into a cone shape)",
+        "translation": "dobrou — dobrando o papel para formar uma forma (ex: um cone)",
+        "example": "So she took a page out of her son’s school notebook and folded it into a cone.",
+        "episode": ""
+      },
+      {
+        "word": "brewed",
+        "definition": "made by soaking ingredients in hot liquid (coffee or tea); past tense of 'brew'",
+        "translation": "preparado, coado — passado de 'brew'; feito por infusão em líquido quente",
+        "example": "She put the coffee grounds on top of the paper, poured hot water over the grounds, and watched as a brewed beverage dripped out the bottom and into her cup.",
+        "episode": ""
+      },
+      {
+        "word": "drips",
+        "definition": "falls in small drops; flows slowly, drop by drop",
+        "translation": "pinga, escorre gota a gota",
+        "example": "Hot water passes over ground coffee beans, and drips into a cup or a pot.",
+        "episode": ""
+      },
+      {
+        "word": "whether",
+        "definition": "used to introduce a choice between two alternatives or to express a condition (note: typo for 'whether')",
+        "translation": "se, caso — usado para introduzir alternativas ou condições",
+        "example": "Whether you want to make just a single cup or fill a huge pot at a restaurant, the method is the same: hot water, grounds, filter, gravity.",
+        "episode": ""
+      },
+      {
+        "word": "almost powder like",
+        "definition": "having a consistency close to powder; extremely fine and dry",
+        "translation": "quase como um pó, com consistência extremamente fina e seca",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "sludge",
+        "definition": "thick, soft, wet mud or a similar substance; here: the thick residue at the bottom of a coffee cup",
+        "translation": "lodo, borra grossa — resíduo espesso no fundo do copo de café",
+        "example": "Boil it all together, pour into small cups, and sip carefully—leaving the sludge at the bottom.",
+        "episode": ""
+      },
+      {
+        "word": "whip",
+        "definition": "to beat a liquid quickly and vigorously to add air and make it frothy or creamy",
+        "translation": "bater vigorosamente um líquido para incorporar ar e deixá-lo cremoso",
+        "example": "Add just the first few drops of coffee as it brews, then whip it vigorously until it turns pale and creamy.",
+        "episode": ""
+      },
+      {
+        "word": "foam",
+        "definition": "a mass of small bubbles formed in or on a liquid; the frothy top of a coffee drink",
+        "translation": "espuma — massa de pequenas bolhas formadas sobre um líquido",
+        "example": "Pour the rest of the coffee over that foam.",
+        "episode": ""
+      },
+      {
+        "word": "sits on top",
+        "definition": "rests or is positioned on the upper surface of something",
+        "translation": "fica por cima, está posicionado sobre a superfície de algo",
+        "example": "You put coffee grounds in a metal filter called a phin, which sits on top of your cup.",
+        "episode": ""
+      },
+      {
+        "word": "spelled",
+        "definition": "to say or write the letters of a word in order; past tense of 'spell'",
+        "translation": "soletrado — passado de 'spell'; dizer ou escrever as letras de uma palavra em ordem",
+        "example": "It’s spelled a-i-n, apostrophe, t.",
+        "episode": ""
+      },
+      {
+        "word": "unlike",
+        "definition": "different from; in contrast to",
+        "translation": "diferente de, ao contrário de, em contraste com",
+        "example": "But it was low-key : unlike jazz, which was high-energy , bossa nova was typically played at lower volumes and without a lot of drums and percussion instruments .",
+        "episode": ""
+      },
+      {
+        "word": "address",
+        "definition": "to speak or write to someone formally; also to deal with a problem",
+        "translation": "tratar alguém formalmente; dirigir-se a; também: endereço",
+        "example": "“Ma’am” is a formal way to address a woman.",
+        "episode": ""
+      },
+      {
+        "word": "implies",
+        "definition": "suggests something without saying it directly; carries an indirect meaning",
+        "translation": "implica, sugere algo indiretamente sem dizer explicitamente",
+        "example": "It’s the female equivalent of the word “sir.” This can often be considered polite and respectful, but it always implies an emotional distance between two people.",
+        "episode": ""
+      },
+      {
+        "word": "step out",
+        "definition": "to get out of a vehicle; also to leave a room briefly",
+        "translation": "sair do veículo; também: sair brevemente de um ambiente",
+        "example": "A police office might say, “Step out of the car please, ma’am.” A customer service agent might say, “Can I help you, ma’am?” But I would caution you against using “ma’am” unless you’re sure it’s appropriate.",
+        "episode": ""
+      },
+      {
+        "word": "caution you against",
+        "definition": "to warn you not to do something; to advise against a particular action",
+        "translation": "advertir contra, aconselhar a não fazer algo",
+        "example": "A police office might say, “Step out of the car please, ma’am.” A customer service agent might say, “Can I help you, ma’am?” But I would caution you against using “ma’am” unless you’re sure it’s appropriate.",
+        "episode": ""
+      },
+      {
+        "word": "against",
+        "definition": "in opposition to; not in favor of; in contact with (physically)",
+        "translation": "contra, em oposição a; também: em contato físico com algo",
+        "example": "A police office might say, “Step out of the car please, ma’am.” A customer service agent might say, “Can I help you, ma’am?” But I would caution you against using “ma’am” unless you’re sure it’s appropriate.",
+        "episode": ""
+      },
+      {
+        "word": "I dare you",
+        "definition": "a challenge, saying that you don't think someone will be brave enough to do something",
+        "translation": "desafio você, aposto que você não vai fazer isso",
+        "example": "I dare you to find me a funnier word!",
+        "episode": ""
+      },
+      {
+        "word": "timekeeping",
+        "definition": "the practice of measuring and recording time; keeping track of time accurately",
+        "translation": "marcação do tempo, controle de horários — a prática de medir e registrar o tempo",
+        "example": "The origin of “o’clock” goes back to the early days of mechanical timekeeping.",
+        "episode": ""
+      },
+      {
+        "word": "sundials",
+        "definition": "ancient devices that show the time by the shadow cast by sunlight on a marked surface",
+        "translation": "relógios de sol — dispositivos antigos que indicam as horas pela sombra da luz solar",
+        "example": "Before mechanical clocks, people kept time with sundials, hourglasses, and church bells—all of which were imprecise.",
+        "episode": ""
+      },
+      {
+        "word": "hourglasses",
+        "definition": "devices with two glass bulbs connected by a narrow neck through which sand falls to measure time",
+        "translation": "ampulhetas — dispositivos com areia que cai para medir o tempo",
+        "example": "Before mechanical clocks, people kept time with sundials, hourglasses, and church bells—all of which were imprecise.",
+        "episode": ""
+      },
+      {
+        "word": "church bells",
+        "definition": "large bells hung in church towers, rung to mark the hours or call people to services",
+        "translation": "sinos de igreja — usados para marcar as horas ou convocar fiéis",
+        "example": "Before mechanical clocks, people kept time with sundials, hourglasses, and church bells—all of which were imprecise.",
+        "episode": ""
+      },
+      {
+        "word": "meant",
+        "definition": "past tense of 'mean'; intended; was used for a particular purpose",
+        "translation": "significava, queria dizer; era destinado a; passado de 'mean'",
+        "example": "That meant it could extract rich flavor from the beans without turning bitter like old boiled coffee.",
+        "episode": ""
+      },
+      {
+        "word": "standard",
+        "definition": "a level of quality or achievement considered normal or acceptable; an established rule or model (note: typo for 'standard')",
+        "translation": "padrão, norma, nível de qualidade aceito como referência",
+        "example": "The American jazz singer Stan Getz collaborated with Gilberto on an album called, imaginatively, “Getz/Gilberto,” which was a huge international success and included several songs that would become standard jazz songs of the era.",
+        "episode": ""
+      },
+      {
+        "word": "tricky",
+        "definition": "difficult to deal with; requiring skill or caution; potentially deceptive",
+        "translation": "complicado, difícil de lidar; que exige cuidado; potencialmente enganoso",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "swear word",
+        "definition": "a rude or offensive word, often used to express strong emotions; a profanity or expletive",
+        "translation": "palavrão, palavrada — palavra rude ou ofensiva usada para expressar emoções fortes",
+        "example": "It’s not a swear word; it’s not profanity.",
+        "episode": ""
+      },
+      {
+        "word": "profanity",
+        "definition": "rude or offensive language, especially involving blasphemy or obscenity",
+        "translation": "profanidade, linguagem obscena ou blasfema",
+        "example": "It’s not a swear word; it’s not profanity.",
+        "episode": ""
+      },
+      {
+        "word": "criticized",
+        "definition": "expressed disapproval of; pointed out the faults or problems of something",
+        "translation": "criticado, censurado — apontado como errado ou inadequado",
+        "example": "It’s one of the few words that is common in daily speech, and yet is frequently criticized by authority figures like teachers and grammar experts.",
+        "episode": ""
+      },
+      {
+        "word": "nonstandard",
+        "definition": "not conforming to the accepted standard form of a language; considered informal or incorrect by grammar authorities",
+        "translation": "não padrão — que não segue as normas aceitas da língua; considerado informal ou incorreto",
+        "example": "Most authority figures in language say you shouldn’t use the word “ain’t.” Dictionaries call it “nonstandard.” Teachers tell you not to use it.",
+        "episode": ""
+      },
+      {
+        "word": "unless",
+        "definition": "except if; used to introduce a condition that must be met for the main statement to be true",
+        "translation": "a menos que, exceto se — introduz uma condição que precisa ser cumprida",
+        "example": "A police office might say, “Step out of the car please, ma’am.” A customer service agent might say, “Can I help you, ma’am?” But I would caution you against using “ma’am” unless you’re sure it’s appropriate.",
+        "episode": ""
+      },
+      {
+        "word": "a bit harsh",
+        "definition": "slightly too severe, unkind, or critical",
+        "translation": "um pouco severo, um tanto duro ou cruel demais",
+        "example": "In my opinion, this is a bit harsh.",
+        "episode": ""
+      },
+      {
+        "word": "for effect",
+        "definition": "done intentionally to create a particular impression or reaction in others",
+        "translation": "para causar efeito, intencionalmente para criar uma impressão em quem ouve",
+        "example": "You can use “ain’t” for effect.",
+        "episode": ""
+      },
+      {
+        "word": "grab attention",
+        "definition": "to attract notice or interest, often suddenly or forcefully",
+        "translation": "chamar atenção, atrair o olhar ou o interesse das pessoas",
+        "example": "People sometimes purposely use “ain’t” just to grab attention.",
+        "episode": ""
+      },
+      {
+        "word": "cross our lips",
+        "definition": "to be spoken aloud; the phrase 'never cross our lips' means never to be said",
+        "translation": "sair da boca — 'nunca cruzar nossos lábios' = nunca ser dito",
+        "example": "It should never, ever, ever cross our lips.",
+        "episode": ""
+      },
+      {
+        "word": "proof",
+        "definition": "evidence or facts that confirm something is true",
+        "translation": "prova, evidência — fato ou dado que confirma que algo é verdade",
+        "example": "Here was proof that all the grown-ups in our lives had been lying to us the whole time.",
+        "episode": ""
+      },
+      {
+        "word": "grown-ups",
+        "definition": "adults; people who are fully mature (informal, often used from a child's perspective)",
+        "translation": "adultos — pessoas maduras (informal, geralmente do ponto de vista de uma criança)",
+        "example": "Here was proof that all the grown-ups in our lives had been lying to us the whole time.",
+        "episode": ""
+      },
+      {
+        "word": "several",
+        "definition": "more than two but not very many; a few",
+        "translation": "vários, alguns — mais de dois, mas não muitos",
+        "example": "Over a 60-year musical career, the singer won several Grammys, performed around the world, and was recognized as a cultural treasure of Brazil.",
+        "episode": ""
+      },
+      {
+        "word": "treasure",
+        "definition": "something very valuable or precious; to value something deeply and keep it safe (note: typo for 'treasure')",
+        "translation": "tesouro; algo muito valioso ou precioso; prezar, guardar com carinho",
+        "example": "Over a 60-year musical career, the singer won several Grammys, performed around the world, and was recognized as a cultural treasure of Brazil.",
+        "episode": ""
+      },
+      {
+        "word": "recognized",
+        "definition": "acknowledged officially; identified; given credit or appreciation",
+        "translation": "reconhecido — identificado; recebeu crédito ou homenagem por algo",
+        "example": "Over a 60-year musical career, the singer won several Grammys, performed around the world, and was recognized as a cultural treasure of Brazil.",
+        "episode": ""
+      },
+      {
+        "word": "low-key",
+        "definition": "quiet, relaxed, and not showy or intense; understated",
+        "translation": "discreto, tranquilo, sem muito alarde; suave e sem exageros",
+        "example": "But it was low-key : unlike jazz, which was high-energy , bossa nova was typically played at lower volumes and without a lot of drums and percussion instruments .",
+        "episode": ""
+      },
+      {
+        "word": "bathroom tile",
+        "definition": "a flat piece of ceramic material used to cover bathroom walls or floors",
+        "translation": "azulejo de banheiro — peça cerâmica usada para revestir paredes e pisos",
+        "example": "The acoustics with the bathroom tile were just a bonus .",
+        "episode": ""
+      },
+      {
+        "word": "crowd",
+        "definition": "a large group of people gathered together; also used to describe a particular social group or scene",
+        "translation": "multidão, público; também: um grupo social específico (ex: a turma dos cafés)",
+        "example": "Bossa nova was the perfect style for the sophisticated crowd in the cafés and bars of Rio de Janeiro, which was undergoing a cultural renaissance at the time.",
+        "episode": ""
+      },
+      {
+        "word": "undergoing",
+        "definition": "experiencing or going through a process of change",
+        "translation": "passando por, sofrendo — em processo de mudança ou transformação",
+        "example": "Bossa nova was the perfect style for the sophisticated crowd in the cafés and bars of Rio de Janeiro, which was undergoing a cultural renaissance at the time.",
+        "episode": ""
+      },
+      {
+        "word": "soothing",
+        "definition": "having a calming or relaxing effect; reducing stress or discomfort",
+        "translation": "calmante, relaxante — que acalma ou alivia o estresse",
+        "example": "",
+        "episode": ""
+      },
+      {
+        "word": "at any given point",
+        "definition": "at any particular moment in time; at any specific instant",
+        "translation": "em qualquer momento específico, a qualquer instante",
+        "example": "There’s usually only one or at most two things going on in a song at any given point .",
+        "episode": ""
+      },
+      {
+        "word": "spreading",
+        "definition": "moving or being shared over a wider area or among more people",
+        "translation": "espalhando, se difundindo — alcançando mais pessoas ou lugares",
+        "example": "On one such tour, an American musician met Gilberto and started spreading the word once he got back home.",
+        "episode": ""
+      },
+      {
+        "word": "breakout",
+        "definition": "a sudden and dramatic success; a hit that brings someone or something to wider attention",
+        "translation": "um grande sucesso que lança alguém ao estrelato; momento de estouro",
+        "example": "It won the Grammy for record of the year in 1965 and included the breakout hit , “The Girl from Ipanema.” Like “Chega de Saudade,” “The Girl from Ipanema” had already been released.",
+        "episode": ""
+      },
+      {
+        "word": "halted",
+        "definition": "stopped completely; came to an end",
+        "translation": "parou, foi interrompido — cessou completamente",
+        "example": "Bossa nova music’s development was halted in the 1960s by the Brazilian military dictatorship , which considered it an outside political or cultural influence .",
+        "episode": ""
+      },
+      {
+        "word": "kept to himself",
+        "definition": "avoided social contact; preferred to be alone and private; did not share personal information",
+        "translation": "ficou para si mesmo, evitou contato social; era reservado e introspectivo",
+        "example": "A writer in a British newspaper said he was “a reclusive genius in a nation of extroverts .” On a personal level , Gilberto generally kept to himself .",
+        "episode": ""
+      }
+    ],
+    "fill_blanks": [
+      {
+        "sentence": "A police office might say, “Step out of the car please, ma’am.” A customer service agent might say, “Can I help you, ma’am?” But I would caution you against using “ma’am” ___ you’re sure it’s appropriate.",
+        "answer": "unless",
+        "hint": "u_____"
+      },
+      {
+        "sentence": "Before mechanical clocks, people kept time with sundials, hourglasses, and ___—all of which were imprecise.",
+        "answer": "church bells",
+        "hint": "c___________"
+      },
+      {
+        "sentence": "You can use “ain’t” ___.",
+        "answer": "for effect",
+        "hint": "f_________"
+      },
+      {
+        "sentence": "Only a small percentage of “country” songs get ___ on pop or rock stations.",
+        "answer": "airplay",
+        "hint": "a______"
+      },
+      {
+        "sentence": "There’s usually only one or at most two things going on in a song ___ .",
+        "answer": "at any given point",
+        "hint": "a_________________"
+      },
+      {
+        "sentence": "Bossa nova music’s development was ___ in the 1960s by the Brazilian military dictatorship , which considered it an outside political or cultural influence .",
+        "answer": "halted",
+        "hint": "h_____"
+      },
+      {
+        "sentence": "It should never, ever, ever ___.",
+        "answer": "cross our lips",
+        "hint": "c_____________"
+      },
+      {
+        "sentence": "So she took a page out of her son’s school notebook and ___ it into a cone.",
+        "answer": "folded",
+        "hint": "f_____"
+      },
+      {
+        "sentence": "The city of Albuquerque, New Mexico, is helping to pay to ___ the neon signs on its 18 miles of Route 66.",
+        "answer": "refurbish",
+        "hint": "r________"
+      },
+      {
+        "sentence": "That proved useful just a few years later during World War II, when large trucks transported military munitions from the ports in California to the ___ in the Midwest and the eastern United States.",
+        "answer": "factories",
+        "hint": "f________"
+      },
+      {
+        "sentence": "It’s the female equivalent of the word “sir.” This can often be considered polite and respectful, but it always ___ an emotional distance between two people.",
+        "answer": "implies",
+        "hint": "i______"
+      },
+      {
+        "sentence": "Before mechanical clocks, people kept time with ___, hourglasses, and church bells—all of which were imprecise.",
+        "answer": "sundials",
+        "hint": "s_______"
+      },
+      {
+        "sentence": "A writer in a British newspaper said he was “a reclusive genius in a nation of extroverts .” On a personal level , Gilberto generally ___ .",
+        "answer": "kept to himself",
+        "hint": "k______________"
+      },
+      {
+        "sentence": "Route 66 is ___ the best way to motor west, from Chicago to LA, like it was in Nat King Cole’s time.",
+        "answer": "no longer",
+        "hint": "n________"
+      },
+      {
+        "sentence": "Most authority figures in language say you shouldn’t use the word “ain’t.” Dictionaries call it “___.” Teachers tell you not to use it.",
+        "answer": "nonstandard",
+        "hint": "n__________"
+      },
+      {
+        "sentence": "Before, it was only country stars who ___ pop stars.",
+        "answer": "evolved into",
+        "hint": "e___________"
+      },
+      {
+        "sentence": "Over a 60-year musical career, the singer won ___ Grammys, performed around the world, and was recognized as a cultural treasure of Brazil.",
+        "answer": "several",
+        "hint": "s______"
+      },
+      {
+        "sentence": "The American jazz singer Stan Getz collaborated with Gilberto on an album called, imaginatively, “Getz/Gilberto,” which was a huge international success and included several songs that would become ___ jazz songs of the era.",
+        "answer": "standard",
+        "hint": "s_______"
+      },
+      {
+        "sentence": "All the major country music labels are ___ along Nashville’s Music Row.",
+        "answer": "headquartered",
+        "hint": "h____________"
+      },
+      {
+        "sentence": "It was called the “Main Street of America.” John Steinbeck’s famous novel, “The Grapes of Wrath” traced a Dust Bowl-era family as it ___ along Route 66.",
+        "answer": "fled the drought",
+        "hint": "f_______________"
+      }
+    ],
+    "multiple_choice": [
+      {
+        "question": "Dolly Parton said goodbye to someone she loved but had to ___.",
+        "word": "leave behind",
+        "options": [
+          {
+            "text": "leave behind",
+            "correct": true
+          },
+          {
+            "text": "stepped in",
+            "correct": false
+          },
+          {
+            "text": "wealth",
+            "correct": false
+          },
+          {
+            "text": "caution you against",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "So when a ___ hit in the early 1930s, massive windstorms blew the loose topsoil all over the region, covering towns and farms in thick dust.",
+        "word": "severe drought",
+        "options": [
+          {
+            "text": "sludge",
+            "correct": false
+          },
+          {
+            "text": "rooted in",
+            "correct": false
+          },
+          {
+            "text": "severe drought",
+            "correct": true
+          },
+          {
+            "text": "struck",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Now, though, some artists are going the other way: they start as pop stars, and then ___ a country album.",
+        "word": "release",
+        "options": [
+          {
+            "text": "coherent",
+            "correct": false
+          },
+          {
+            "text": "release",
+            "correct": true
+          },
+          {
+            "text": "well beyond",
+            "correct": false
+          },
+          {
+            "text": "criticized",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "___ you want to make just a single cup or fill a huge pot at a restaurant, the method is the same: hot water, grounds, filter, gravity.",
+        "word": "whether",
+        "options": [
+          {
+            "text": "whether",
+            "correct": true
+          },
+          {
+            "text": "treasure",
+            "correct": false
+          },
+          {
+            "text": "rural roots",
+            "correct": false
+          },
+          {
+            "text": "several",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "It introduced country themes to millions of music fans who ___ have given country a second thought.",
+        "word": "might never",
+        "options": [
+          {
+            "text": "against",
+            "correct": false
+          },
+          {
+            "text": "thick dust",
+            "correct": false
+          },
+          {
+            "text": "at any given point",
+            "correct": false
+          },
+          {
+            "text": "might never",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question": "But in the early 1920s, the federal government stepped in to ___ national roadways.",
+        "word": "standardize",
+        "options": [
+          {
+            "text": "hourglasses",
+            "correct": false
+          },
+          {
+            "text": "stepped in",
+            "correct": false
+          },
+          {
+            "text": "standardize",
+            "correct": true
+          },
+          {
+            "text": "criticized",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Over a 60-year musical career, the singer won ___ Grammys, performed around the world, and was recognized as a cultural treasure of Brazil.",
+        "word": "several",
+        "options": [
+          {
+            "text": "several",
+            "correct": true
+          },
+          {
+            "text": "caution you against",
+            "correct": false
+          },
+          {
+            "text": "whether",
+            "correct": false
+          },
+          {
+            "text": "halted",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Kenny Rogers sang about a veteran ___ giving advice to a fellow passenger on a lonely train ride.",
+        "word": "gambler",
+        "options": [
+          {
+            "text": "coincided with",
+            "correct": false
+          },
+          {
+            "text": "severe drought",
+            "correct": false
+          },
+          {
+            "text": "gambler",
+            "correct": true
+          },
+          {
+            "text": "gritty taste",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "The Dust Bowl was a ten-year environmental disaster that ___ the Great Plains, in the middle of the country.",
+        "word": "struck",
+        "options": [
+          {
+            "text": "against",
+            "correct": false
+          },
+          {
+            "text": "fiercely loyal",
+            "correct": false
+          },
+          {
+            "text": "struck",
+            "correct": true
+          },
+          {
+            "text": "rooted in",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "You can certainly find country music stars ___ arenas.",
+        "word": "selling out",
+        "options": [
+          {
+            "text": "several",
+            "correct": false
+          },
+          {
+            "text": "rooted in",
+            "correct": false
+          },
+          {
+            "text": "selling out",
+            "correct": true
+          },
+          {
+            "text": "fiercely loyal",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "After World War II, Americans had the ___ to own their own cars, and the family road trip became a popular option for middle-class vacations.",
+        "word": "wealth",
+        "options": [
+          {
+            "text": "bathroom tile",
+            "correct": false
+          },
+          {
+            "text": "wealth",
+            "correct": true
+          },
+          {
+            "text": "hit the jackpot",
+            "correct": false
+          },
+          {
+            "text": "release",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "They boiled water, poured it over coffee grounds, waited for the grounds to settle to the bottom, and ___.",
+        "word": "sipped carefully",
+        "options": [
+          {
+            "text": "selling out",
+            "correct": false
+          },
+          {
+            "text": "sipped carefully",
+            "correct": true
+          },
+          {
+            "text": "drip coffee",
+            "correct": false
+          },
+          {
+            "text": "address",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Hot water passes over ground coffee beans, and ___ into a cup or a pot.",
+        "word": "drips",
+        "options": [
+          {
+            "text": "fully paved",
+            "correct": false
+          },
+          {
+            "text": "against",
+            "correct": false
+          },
+          {
+            "text": "gritty taste",
+            "correct": false
+          },
+          {
+            "text": "drips",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question": "So when a severe drought hit in the early 1930s, massive windstorms blew the loose topsoil all over the region, covering towns and farms in ___.",
+        "word": "thick dust",
+        "options": [
+          {
+            "text": "grown-ups",
+            "correct": false
+          },
+          {
+            "text": "I dare you",
+            "correct": false
+          },
+          {
+            "text": "thick dust",
+            "correct": true
+          },
+          {
+            "text": "standardize",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "It’s ___ a-i-n, apostrophe, t.",
+        "word": "spelled",
+        "options": [
+          {
+            "text": "spelled",
+            "correct": true
+          },
+          {
+            "text": "sludge",
+            "correct": false
+          },
+          {
+            "text": "well beyond",
+            "correct": false
+          },
+          {
+            "text": "southern",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "She put the coffee grounds on top of the paper, poured hot water over the grounds, and watched as a ___ beverage dripped out the bottom and into her cup.",
+        "word": "brewed",
+        "options": [
+          {
+            "text": "made up",
+            "correct": false
+          },
+          {
+            "text": "brewed",
+            "correct": true
+          },
+          {
+            "text": "wealth",
+            "correct": false
+          },
+          {
+            "text": "swear word",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Private associations ___ roads and marketed them to travelers, all to help improve business along the road.",
+        "word": "stitched together",
+        "options": [
+          {
+            "text": "whip",
+            "correct": false
+          },
+          {
+            "text": "sundials",
+            "correct": false
+          },
+          {
+            "text": "in advance",
+            "correct": false
+          },
+          {
+            "text": "stitched together",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "question": "In this story, we’ll take a world tour of the different ways to produce the world’s second-most-popular hot ___.",
+        "word": "beverage",
+        "options": [
+          {
+            "text": "beverage",
+            "correct": true
+          },
+          {
+            "text": "breakout",
+            "correct": false
+          },
+          {
+            "text": "several",
+            "correct": false
+          },
+          {
+            "text": "treasure",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "“Cowboy Carter” ___ win the Grammy Award for Album of the Year in 2025.",
+        "word": "went on to",
+        "options": [
+          {
+            "text": "bitter",
+            "correct": false
+          },
+          {
+            "text": "made up",
+            "correct": false
+          },
+          {
+            "text": "went on to",
+            "correct": true
+          },
+          {
+            "text": "folded",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "But it was ___ : unlike jazz, which was high-energy , bossa nova was typically played at lower volumes and without a lot of drums and percussion instruments .",
+        "word": "low-key",
+        "options": [
+          {
+            "text": "low-key",
+            "correct": true
+          },
+          {
+            "text": "to motor west",
+            "correct": false
+          },
+          {
+            "text": "headquartered",
+            "correct": false
+          },
+          {
+            "text": "several",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "matching": [
+      [
+        {
+          "word": "foam",
+          "definition": "Pour the rest of the coffee over that foam."
+        },
+        {
+          "word": "step out",
+          "definition": "A police office might say, “Step out of the car please, ma’am.” A customer service agen…"
+        },
+        {
+          "word": "come across",
+          "definition": "I came across a great article about English learning."
+        },
+        {
+          "word": "wealth",
+          "definition": "After World War II, Americans had the wealth to own their own cars, and the family road…"
+        },
+        {
+          "word": "grown-ups",
+          "definition": "Here was proof that all the grown-ups in our lives had been lying to us the whole time."
+        },
+        {
+          "word": "charts",
+          "definition": "The genre has its own charts and dedicated radio stations."
+        }
+      ],
+      [
+        {
+          "word": "trunk",
+          "definition": "the storage compartment at the back of a car (American English); called 'boot' in British "
+        },
+        {
+          "word": "for effect",
+          "definition": "You can use “ain’t” for effect."
+        },
+        {
+          "word": "pack a cooler",
+          "definition": "to fill an insulated container with ice and food/drinks to keep them cold during a trip"
+        },
+        {
+          "word": "church bells",
+          "definition": "Before mechanical clocks, people kept time with sundials, hourglasses, and church bells…"
+        },
+        {
+          "word": "grab attention",
+          "definition": "People sometimes purposely use “ain’t” just to grab attention."
+        },
+        {
+          "word": "at any given point",
+          "definition": "There’s usually only one or at most two things going on in a song at any given point ."
+        }
+      ],
+      [
+        {
+          "word": "beverage",
+          "definition": "In this story, we’ll take a world tour of the different ways to produce the world’s sec…"
+        },
+        {
+          "word": "leave behind",
+          "definition": "Dolly Parton said goodbye to someone she loved but had to leave behind."
+        },
+        {
+          "word": "not otherwise",
+          "definition": "Streaming algorithms often help fans of pop, rock, and R&B discover country songs they …"
+        },
+        {
+          "word": "hourglasses",
+          "definition": "Before mechanical clocks, people kept time with sundials, hourglasses, and church bells…"
+        },
+        {
+          "word": "airplay",
+          "definition": "Only a small percentage of “country” songs get airplay on pop or rock stations."
+        },
+        {
+          "word": "recognized",
+          "definition": "Over a 60-year musical career, the singer won several Grammys, performed around the wor…"
+        }
+      ],
+      [
+        {
+          "word": "reached",
+          "definition": "In the 1990s, for example, country singers Garth Brooks and Shania Twain reached the to…"
+        },
+        {
+          "word": "caution you against",
+          "definition": "A police office might say, “Step out of the car please, ma’am.” A customer service agen…"
+        },
+        {
+          "word": "trace the origin",
+          "definition": "You can trace the origin of this love story back one hundred years exactly, to the foun…"
+        },
+        {
+          "word": "whether",
+          "definition": "Whether you want to make just a single cup or fill a huge pot at a restaurant, the meth…"
+        },
+        {
+          "word": "standardize",
+          "definition": "But in the early 1920s, the federal government stepped in to standardize national roadw…"
+        },
+        {
+          "word": "fully paved",
+          "definition": "In 1938, Route 66 became the first fully paved highway in the United States."
+        }
+      ],
+      [
+        {
+          "word": "folded",
+          "definition": "So she took a page out of her son’s school notebook and folded it into a cone."
+        },
+        {
+          "word": "thick dust",
+          "definition": "So when a severe drought hit in the early 1930s, massive windstorms blew the loose tops…"
+        },
+        {
+          "word": "rooted in",
+          "definition": "Country is a genre rooted in acoustic instruments and stories about everyday life—love,…"
+        },
+        {
+          "word": "unless",
+          "definition": "A police office might say, “Step out of the car please, ma’am.” A customer service agen…"
+        },
+        {
+          "word": "timekeeping",
+          "definition": "The origin of “o’clock” goes back to the early days of mechanical timekeeping."
+        },
+        {
+          "word": "almost powder like",
+          "definition": "having a consistency close to powder; extremely fine and dry"
+        }
+      ],
+      [
+        {
+          "word": "profanity",
+          "definition": "It’s not a swear word; it’s not profanity."
+        },
+        {
+          "word": "coherent",
+          "definition": "Now, they would have a coherent, easy-to-use system of national highways."
+        },
+        {
+          "word": "struck",
+          "definition": "The Dust Bowl was a ten-year environmental disaster that struck the Great Plains, in th…"
+        },
+        {
+          "word": "well beyond",
+          "definition": "Country music is reaching new audiences, and some of its biggest songs are breaking out…"
+        },
+        {
+          "word": "throw your bags",
+          "definition": "to quickly pack your luggage and put it in a vehicle, ready for a trip"
+        },
+        {
+          "word": "sundials",
+          "definition": "Before mechanical clocks, people kept time with sundials, hourglasses, and church bells…"
+        }
+      ]
+    ],
+    "sentence_order": [
+      {
+        "sentence": "And at the Big Texan, they have a competition.",
+        "shuffled": [
+          "Texan,",
+          "a",
+          "Big",
+          "competition.",
+          "they",
+          "the",
+          "have",
+          "at",
+          "And"
+        ]
+      },
+      {
+        "sentence": "It was nothing like my typical morning cup, but I liked it.",
+        "shuffled": [
+          "morning",
+          "cup,",
+          "my",
+          "but",
+          "liked",
+          "It",
+          "it.",
+          "like",
+          "I",
+          "typical",
+          "nothing",
+          "was"
+        ]
+      },
+      {
+        "sentence": "Add just the first few drops of coffee as it brews, then whip it vigorously until it turns pale and creamy.",
+        "shuffled": [
+          "turns",
+          "vigorously",
+          "Add",
+          "the",
+          "brews,",
+          "few",
+          "of",
+          "and",
+          "until",
+          "coffee",
+          "just",
+          "first",
+          "whip",
+          "it",
+          "creamy.",
+          "pale",
+          "drops",
+          "then",
+          "it",
+          "it",
+          "as"
+        ]
+      },
+      {
+        "sentence": "Quick hello to a few listeners.",
+        "shuffled": [
+          "few",
+          "hello",
+          "a",
+          "to",
+          "listeners.",
+          "Quick"
+        ]
+      },
+      {
+        "sentence": "It’s especially popular in the southern United States and in rural areas.",
+        "shuffled": [
+          "rural",
+          "southern",
+          "in",
+          "United",
+          "States",
+          "areas.",
+          "and",
+          "popular",
+          "It’s",
+          "in",
+          "the",
+          "especially"
+        ]
+      },
+      {
+        "sentence": "It brought prosperity to farmers, who could now bring their grain and produce to the market more easily.",
+        "shuffled": [
+          "grain",
+          "more",
+          "their",
+          "now",
+          "the",
+          "and",
+          "market",
+          "to",
+          "could",
+          "brought",
+          "prosperity",
+          "easily.",
+          "who",
+          "produce",
+          "It",
+          "bring",
+          "farmers,",
+          "to"
+        ]
+      },
+      {
+        "sentence": "Country music has a unique sound, and it also has its own world.",
+        "shuffled": [
+          "unique",
+          "own",
+          "has",
+          "also",
+          "and",
+          "Country",
+          "a",
+          "has",
+          "its",
+          "world.",
+          "music",
+          "sound,",
+          "it"
+        ]
+      },
+      {
+        "sentence": "It was so fast, he called the style “espresso.” The espresso machine solved two problems at once.",
+        "shuffled": [
+          "solved",
+          "style",
+          "at",
+          "called",
+          "once.",
+          "The",
+          "so",
+          "fast,",
+          "“espresso.”",
+          "It",
+          "espresso",
+          "problems",
+          "he",
+          "two",
+          "was",
+          "the",
+          "machine"
+        ]
+      },
+      {
+        "sentence": "Gizmodo: Why we say ‘o’clock’ Grammarly: Is ‘Ain’t’ a word?",
+        "shuffled": [
+          "word?",
+          "‘Ain’t’",
+          "Grammarly:",
+          "Is",
+          "say",
+          "Gizmodo:",
+          "a",
+          "‘o’clock’",
+          "we",
+          "Why"
+        ]
+      },
+      {
+        "sentence": "She was laughing; this probably happened to her every year.",
+        "shuffled": [
+          "her",
+          "laughing;",
+          "was",
+          "probably",
+          "She",
+          "this",
+          "every",
+          "to",
+          "year.",
+          "happened"
+        ]
+      }
+    ]
+  }
+}

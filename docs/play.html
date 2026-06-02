@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practice – Plain English</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="back-btn">← Modules</a>
+      <span id="module-title" class="logo">Module</span>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Activity selector -->
+    <nav id="activity-nav" class="activity-nav hidden">
+      <button class="act-btn active" data-game="flashcards">
+        <span class="act-icon">🃏</span>
+        <span>Flashcards</span>
+      </button>
+      <button class="act-btn" data-game="fill_blanks">
+        <span class="act-icon">✏️</span>
+        <span>Fill Blanks</span>
+      </button>
+      <button class="act-btn" data-game="multiple_choice">
+        <span class="act-icon">🔘</span>
+        <span>Quiz</span>
+      </button>
+      <button class="act-btn" data-game="matching">
+        <span class="act-icon">🔗</span>
+        <span>Matching</span>
+      </button>
+      <button class="act-btn" data-game="sentence_order">
+        <span class="act-icon">🔀</span>
+        <span>Order</span>
+      </button>
+    </nav>
+
+    <div id="loading" class="loading-msg">Loading module…</div>
+    <div id="error-msg" class="error-msg hidden"></div>
+
+    <!-- Score bar -->
+    <div id="score-bar" class="score-bar hidden">
+      <span id="score-label">Score: <strong id="score-val">0</strong></span>
+      <span id="progress-label"><strong id="progress-current">0</strong> / <strong id="progress-total">0</strong></span>
+    </div>
+
+    <!-- Game area -->
+    <div id="game-area" class="game-area hidden"></div>
+
+    <!-- Log export (shown after boot) -->
+    <div id="log-bar" class="log-bar hidden">
+      <button id="export-log-btn" class="btn btn-log" onclick="exportLog()">📋 Export Log</button>
+      <button class="btn btn-log-clear" onclick="clearLog()">🗑 Clear</button>
+    </div>
+
+  </main>
+
+  <script src="js/games.js"></script>
+</body>
+</html>
