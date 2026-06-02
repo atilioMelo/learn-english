@@ -440,21 +440,23 @@ function renderFillBlanks(exercises) {
         input.value = ex.answer;
         input.focus();
         hintBtn.disabled = true;
-        // Show a random context sentence from the flashcard's contexts array,
-        // falling back to the flashcard example, or skipping if none available
+        // Show context sentence: prefer contexts[] array, fallback to exercise sentence with blank filled
         const fc = (moduleData.activities.flashcards ?? [])
           .find(c => c.word.toLowerCase() === ex.answer.toLowerCase());
-        const ctxList = fc?.contexts?.length ? fc.contexts : (fc?.example ? [fc.example] : []);
+        const ctxList = (fc?.contexts?.length) ? fc.contexts : [];
+        let ctxSentence;
         if (ctxList.length) {
-          const ctxSentence = ctxList[Math.floor(Math.random() * ctxList.length)];
-          // Highlight the answer word inside the context sentence
-          const highlighted = ctxSentence.replace(
-            new RegExp('(' + ex.answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'),
-            '<strong>$1</strong>'
-          );
-          feedback.innerHTML = `💡 <span class="hint-context">${highlighted}</span>`;
-          feedback.className = 'feedback-msg hint';
+          ctxSentence = ctxList[Math.floor(Math.random() * ctxList.length)];
+        } else {
+          // fallback: use the exercise sentence itself with blank filled
+          ctxSentence = ex.sentence.replace(/_+/g, ex.answer);
         }
+        const highlighted = ctxSentence.replace(
+          new RegExp('(' + ex.answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'),
+          '<strong>$1</strong>'
+        );
+        feedback.innerHTML = `💡 <span class="hint-context">${highlighted}</span>`;
+        feedback.className = 'feedback-msg hint';
       }
     });
 
