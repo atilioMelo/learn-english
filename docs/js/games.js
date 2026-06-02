@@ -409,8 +409,8 @@ function renderFillBlanks(exercises) {
     retryBtn.addEventListener('click', () => { scoredThisCard = false; answered--; resetCard(); });
 
     // Progressive hint: 1st click = PT-BR translation
-    //                   2nd click = letter mask (r______)
-    //                   3rd click = full answer
+    //                   2nd click = English context sentence
+    //                   3rd click = fill answer in input
     let hintStep = 0;  // declared before check() uses it
     hintBtn.addEventListener('click', () => {
       if (checkBtn.disabled) return;   // already answered
@@ -425,30 +425,17 @@ function renderFillBlanks(exercises) {
           feedback.className = 'feedback-msg hint';
           hintBtn.textContent = 'Hint 2/3';
         } else {
-          hintStep++;   // no translation → skip to mask
+          hintStep++;   // no translation → skip to context
         }
       }
       if (hintStep === 2) {
-        const mask = ex.hint ?? ex.answer[0] + '_'.repeat(Math.max(0, ex.answer.length - 1));
-        feedback.innerHTML = `💡 <span class="hint-translation">${feedback.querySelector('.hint-translation')?.textContent ?? ''}</span>` +
-          `&nbsp;&nbsp;<span class="hint-mask">${esc(mask)}</span>`;
-        feedback.className = 'feedback-msg hint';
-        hintBtn.textContent = 'Show answer';
-        input.focus();
-      }
-      if (hintStep >= 3) {
-        input.value = ex.answer;
-        input.focus();
-        hintBtn.disabled = true;
-        // Show context sentence: prefer contexts[] array, fallback to exercise sentence with blank filled
         const fc = (moduleData.activities.flashcards ?? [])
           .find(c => c.word.toLowerCase() === ex.answer.toLowerCase());
-        const ctxList = (fc?.contexts?.length) ? fc.contexts : [];
+        const ctxList = fc?.contexts?.length ? fc.contexts : [];
         let ctxSentence;
         if (ctxList.length) {
           ctxSentence = ctxList[Math.floor(Math.random() * ctxList.length)];
         } else {
-          // fallback: use the exercise sentence itself with blank filled
           ctxSentence = ex.sentence.replace(/_+/g, ex.answer);
         }
         const highlighted = ctxSentence.replace(
@@ -457,6 +444,13 @@ function renderFillBlanks(exercises) {
         );
         feedback.innerHTML = `💡 <span class="hint-context">${highlighted}</span>`;
         feedback.className = 'feedback-msg hint';
+        hintBtn.textContent = 'Show answer';
+        input.focus();
+      }
+      if (hintStep >= 3) {
+        input.value = ex.answer;
+        input.focus();
+        hintBtn.disabled = true;
       }
     });
 
