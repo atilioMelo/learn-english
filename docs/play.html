@@ -61,6 +61,25 @@
 
   </main>
 
+  <!-- Notes floating button -->
+  <button id="notes-fab" class="notes-fab" onclick="toggleNotes()" title="Anotações">📝</button>
+
+  <!-- Notes modal -->
+  <div id="notes-overlay" class="notes-overlay hidden" onclick="if(event.target===this)toggleNotes()">
+    <div class="notes-modal">
+      <div class="notes-header">
+        <span>📝 Anotações</span>
+        <div style="display:flex;gap:.5rem">
+          <button class="btn btn-log" onclick="exportNotes()">📋 Copiar</button>
+          <button class="btn btn-log-clear" onclick="clearNotes()">🗑 Limpar</button>
+          <button class="btn" onclick="toggleNotes()" style="opacity:.6;padding:.3rem .7rem">✕</button>
+        </div>
+      </div>
+      <textarea id="notes-area" class="notes-area" placeholder="Escreva aqui palavras, frases ou dúvidas para revisar na próxima semana…" spellcheck="false"></textarea>
+      <div class="notes-footer">Salvo automaticamente no navegador</div>
+    </div>
+  </div>
+
   <script src="js/games.js"></script>
 </body>
 </html>

@@ -74,6 +74,54 @@ function clearLog() {
   const btn = qs('#export-log-btn');
   if (btn) btn.textContent = '📋 Export Log';
 }
+
+// ─── Notes ───────────────────────────────────────────────────────────────────
+// Free-text notepad, saved to localStorage under 'pe_notes'
+
+const NOTES_KEY = 'pe_notes';
+
+function toggleNotes() {
+  const overlay = qs('#notes-overlay');
+  if (!overlay) return;
+  const opening = overlay.classList.contains('hidden');
+  overlay.classList.toggle('hidden');
+  if (opening) {
+    const area = qs('#notes-area');
+    area.value = localStorage.getItem(NOTES_KEY) ?? '';
+    area.focus();
+  }
+}
+
+function exportNotes() {
+  const text = qs('#notes-area')?.value ?? '';
+  if (!text.trim()) { alert('Nenhuma anotação para copiar.'); return; }
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      const btn = qs('#notes-modal .btn-log') ?? [...document.querySelectorAll('.notes-modal .btn-log')][0];
+      if (!btn) return;
+      const orig = btn.textContent;
+      btn.textContent = '✓ Copiado!';
+      setTimeout(() => { btn.textContent = orig; }, 2000);
+    })
+    .catch(() => {
+      const win = window.open('', '_blank');
+      win.document.write(`<pre style="font-family:monospace;font-size:13px">${text.replace(/</g,'&lt;')}</pre>`);
+    });
+}
+
+function clearNotes() {
+  if (!confirm('Apagar todas as anotações?')) return;
+  localStorage.removeItem(NOTES_KEY);
+  const area = qs('#notes-area');
+  if (area) area.value = '';
+}
+
+// Auto-save on every keystroke
+document.addEventListener('DOMContentLoaded', () => {
+  const area = qs('#notes-area');
+  if (area) area.addEventListener('input', () => localStorage.setItem(NOTES_KEY, area.value));
+});
+
 let score        = 0;
 let total        = 0;
 

@@ -160,6 +160,46 @@ body {
 .btn-log-clear:hover { opacity: .85; }
 
 /* ─────────────────────────────────────────────
+   Notes
+───────────────────────────────────────────── */
+.notes-fab {
+  position: fixed; bottom: 1.8rem; right: 1.8rem; z-index: 900;
+  width: 3rem; height: 3rem; border-radius: 50%;
+  background: var(--card-bg); border: 1px solid rgba(255,255,255,.15);
+  font-size: 1.3rem; cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,.4);
+  transition: transform .15s, box-shadow .15s;
+}
+.notes-fab:hover { transform: scale(1.1); box-shadow: 0 6px 20px rgba(0,0,0,.5); }
+
+.notes-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(0,0,0,.55); display: flex;
+  align-items: center; justify-content: center;
+  padding: 1rem;
+}
+.notes-overlay.hidden { display: none; }
+
+.notes-modal {
+  background: var(--card-bg); border: 1px solid rgba(255,255,255,.12);
+  border-radius: 12px; width: 100%; max-width: 560px;
+  display: flex; flex-direction: column; gap: .75rem;
+  padding: 1.2rem; box-shadow: 0 12px 40px rgba(0,0,0,.6);
+}
+.notes-header {
+  display: flex; align-items: center; justify-content: space-between;
+  font-weight: 700; font-size: 1rem; color: var(--text);
+}
+.notes-area {
+  width: 100%; min-height: 260px; resize: vertical;
+  background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.1);
+  border-radius: 8px; color: var(--text); font-size: .95rem;
+  font-family: inherit; padding: .75rem; line-height: 1.6;
+  outline: none; box-sizing: border-box;
+}
+.notes-area:focus { border-color: var(--accent); }
+.notes-footer { font-size: .72rem; color: var(--text-muted); text-align: right; }
+
+/* ─────────────────────────────────────────────
    Game area wrapper
 ───────────────────────────────────────────── */
 .game-area { animation: fadeIn .3s ease; }
