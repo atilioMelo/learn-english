@@ -450,6 +450,7 @@ function renderFillBlanks(exercises) {
       if (hintStep >= 3) {
         input.value = ex.answer;
         input.focus();
+        hintBtn.textContent = '✓ Answer shown';
         hintBtn.disabled = true;
       }
     });
