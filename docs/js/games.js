@@ -394,9 +394,10 @@ function renderFillBlanks(exercises) {
         input.value = ex.answer;
         input.focus();
         hintBtn.disabled = true;
-        // Show full sentence with answer filled in as context
-        const fullSentence = ex.sentence.replace(/_{2,}/g, `<strong>${esc(ex.answer)}</strong>`);
-        feedback.innerHTML += `<br><span class="hint-context">${fullSentence}</span>`;
+        // Replace feedback entirely with the full sentence (blank filled in)
+        const fullSentence = ex.sentence.replace(/_+/g, `<strong>${esc(ex.answer)}</strong>`);
+        feedback.innerHTML = `💡 <span class="hint-context">${fullSentence}</span>`;
+        feedback.className = 'feedback-msg hint';
       }
     });
 
