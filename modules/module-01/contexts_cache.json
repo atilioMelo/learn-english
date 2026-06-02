@@ -1,0 +1,82 @@
+{
+  "unless": [
+    "You can't enter the building unless you have a valid badge.",
+    "I won't go to the meeting unless they send the agenda in advance."
+  ],
+  "church bells": [
+    "Before mechanical clocks, church bells rang every hour so people could keep track of time.",
+    "We woke up to the sound of church bells echoing through the village on Sunday morning."
+  ],
+  "for effect": [
+    "He paused dramatically for effect before announcing the winner of the competition.",
+    "She lowered her voice for effect, making the story feel even more suspenseful."
+  ],
+  "airplay": [
+    "The new single got massive airplay on radio stations across the country within its first week.",
+    "Without airplay, it is very difficult for an independent artist to reach a wide audience."
+  ],
+  "at any given point": [
+    "At any given point during rush hour, there are thousands of cars stuck on this highway.",
+    "The app can track up to one hundred active users at any given point without slowing down."
+  ],
+  "halted": [
+    "Construction on the new bridge was halted due to the unexpected heavy rain.",
+    "The soldiers halted immediately when they heard the command echo across the field."
+  ],
+  "cross our lips": [
+    "That secret must never cross our lips outside of this room — not to anyone.",
+    "They made a pact that his name would never cross their lips again after what happened."
+  ],
+  "folded": [
+    "She folded the paper carefully and slid it inside the envelope before sealing it.",
+    "He folded a piece of filter paper into a cone and placed it over the cup."
+  ],
+  "refurbish": [
+    "The hotel was completely refurbished last year and now looks like a brand-new building.",
+    "The city plans to refurbish the old train station and turn it into a cultural center."
+  ],
+  "factories": [
+    "Many factories moved out of the city center to reduce operating costs and avoid congestion.",
+    "The industrial revolution transformed small workshops into large factories with hundreds of workers."
+  ],
+  "implies": [
+    "Calling someone's feedback 'a bit harsh' implies that they may have gone too far.",
+    "The use of formal language in a letter implies respect and professionalism toward the reader."
+  ],
+  "sundials": [
+    "Before mechanical clocks existed, sundials were used to tell the time by reading the shadow of the sun.",
+    "The museum garden has a beautifully restored sundial dating back to the seventeenth century."
+  ],
+  "kept to himself": [
+    "He was a quiet, reserved man who kept to himself and rarely joined conversations at the office.",
+    "After the disagreement, she kept to herself for the rest of the week and avoided the group."
+  ],
+  "no longer": [
+    "I no longer drink coffee after six in the evening because it affects my sleep.",
+    "The company no longer produces that model since it was discontinued three years ago."
+  ],
+  "nonstandard": [
+    "Using 'ain't' is considered nonstandard English and is generally avoided in formal writing.",
+    "The technical report was sent back because it relied on nonstandard units of measurement."
+  ],
+  "evolved into": [
+    "Country music evolved into a mainstream genre that appeals to audiences far beyond rural America.",
+    "What started as a small personal blog evolved into a successful media company with millions of readers."
+  ],
+  "several": [
+    "She visited several countries during her three-month trip through Southeast Asia.",
+    "There are several reasons why the launch was delayed, but the main one was a supply chain issue."
+  ],
+  "standard": [
+    "English has become the standard language for international business and academic communication.",
+    "The factory follows strict standard procedures to ensure consistent product quality at every stage."
+  ],
+  "headquartered": [
+    "The company is headquartered in New York but has regional offices in over twenty countries.",
+    "Many of the world's largest technology firms are headquartered in Silicon Valley, California."
+  ],
+  "fled the drought": [
+    "Thousands of farming families fled the drought and headed west in search of fertile land.",
+    "Many communities fled the drought that had devastated their crops for two consecutive years."
+  ]
+}

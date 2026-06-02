@@ -440,10 +440,21 @@ function renderFillBlanks(exercises) {
         input.value = ex.answer;
         input.focus();
         hintBtn.disabled = true;
-        // Replace feedback entirely with the full sentence (blank filled in)
-        const fullSentence = ex.sentence.replace(/_+/g, `<strong>${esc(ex.answer)}</strong>`);
-        feedback.innerHTML = `💡 <span class="hint-context">${fullSentence}</span>`;
-        feedback.className = 'feedback-msg hint';
+        // Show a random context sentence from the flashcard's contexts array,
+        // falling back to the flashcard example, or skipping if none available
+        const fc = (moduleData.activities.flashcards ?? [])
+          .find(c => c.word.toLowerCase() === ex.answer.toLowerCase());
+        const ctxList = fc?.contexts?.length ? fc.contexts : (fc?.example ? [fc.example] : []);
+        if (ctxList.length) {
+          const ctxSentence = ctxList[Math.floor(Math.random() * ctxList.length)];
+          // Highlight the answer word inside the context sentence
+          const highlighted = ctxSentence.replace(
+            new RegExp('(' + ex.answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'),
+            '<strong>$1</strong>'
+          );
+          feedback.innerHTML = `💡 <span class="hint-context">${highlighted}</span>`;
+          feedback.className = 'feedback-msg hint';
+        }
       }
     });
 

@@ -86,11 +86,12 @@ def read_vocab(vocab_path: Path) -> list:
 
 _def_cache: dict = {}   # carregado sob demanda por load_definitions_cache()
 _trans_cache: dict = {}  # carregado sob demanda por load_definitions_cache()
+_ctx_cache: dict = {}    # carregado sob demanda: word → [sentence1, sentence2]
 
 
 def load_definitions_cache(module_dir: Path) -> None:
-    """Carrega definitions_cache.json e translations_cache.json do módulo."""
-    global _def_cache, _trans_cache
+    """Carrega definitions_cache.json, translations_cache.json e contexts_cache.json do módulo."""
+    global _def_cache, _trans_cache, _ctx_cache
     cache_file = module_dir / "definitions_cache.json"
     if cache_file.exists():
         with open(cache_file, encoding="utf-8") as f:
@@ -106,6 +107,14 @@ def load_definitions_cache(module_dir: Path) -> None:
         print(f"  → Cache de traduções:  {len(_trans_cache)} entradas")
     else:
         _trans_cache = {}
+
+    ctx_file = module_dir / "contexts_cache.json"
+    if ctx_file.exists():
+        with open(ctx_file, encoding="utf-8") as f:
+            _ctx_cache = json.load(f)
+        print(f"  → Cache de contextos:  {len(_ctx_cache)} entradas")
+    else:
+        _ctx_cache = {}
 
 
 def get_definition(word: str, fallback_notes: str = "") -> str:
@@ -184,6 +193,7 @@ def gen_flashcards(vocab: list, all_text: str) -> list:
     for item in vocab:
         definition  = get_definition(item["word"], item["notes"])
         translation = _trans_cache.get(item["word"]) or _trans_cache.get(item["word"].lower()) or ""
+        contexts    = _ctx_cache.get(item["word"]) or _ctx_cache.get(item["word"].lower()) or []
         sentences   = find_sentences(all_text, item["word"])
         if not sentences and item["example"]:
             sentences = [clean_sentence(item["example"])]
@@ -193,6 +203,7 @@ def gen_flashcards(vocab: list, all_text: str) -> list:
             "definition":  definition,
             "translation": translation,
             "example":     example,
+            "contexts":    contexts,
             "episode":     item["episode"],
         })
     return cards
