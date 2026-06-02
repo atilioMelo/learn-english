@@ -302,8 +302,7 @@ body {
 .feedback-msg.wrong   { color: var(--danger); }
 .feedback-msg.hint    { color: var(--text-muted); font-weight: 400; }
 .hint-translation     { color: var(--accent2); font-weight: 700; }
-.hint-mask            { color: var(--text-muted); font-family: monospace; font-size: .95rem; letter-spacing: .05em; }
-.try-again-btn        { margin-top: .4rem; font-size: .8rem; padding: .3rem .9rem;
+.hint-mask            { color: var(--text-muted); font-family: monospace; font-size: .95rem; letter-spacing: .05em; }.hint-context     { display: block; margin-top: .4rem; font-size: .85rem; color: var(--text-muted); font-style: italic; }.try-again-btn        { margin-top: .4rem; font-size: .8rem; padding: .3rem .9rem;
                         opacity: .85; border-color: var(--text-muted); color: var(--text-muted); }
 
 /* ─────────────────────────────────────────────

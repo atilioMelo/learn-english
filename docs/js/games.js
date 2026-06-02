@@ -223,7 +223,7 @@ function renderFlashcards(cards) {
   if (!cards.length) { area.innerHTML = emptyState('No flashcards in this module.'); return; }
 
   let idx   = 0;
-  const deck = shuffle(cards);
+  let deck = shuffle(cards);
   // Track flip count per card index (resets on restart)
   const flipCounts = new Array(deck.length).fill(0);
 
@@ -276,7 +276,7 @@ function renderFlashcards(cards) {
     qs('#fc-prev')?.addEventListener('click', () => { if (idx > 0) goTo(idx - 1); });
     qs('#fc-next').addEventListener('click', () => {
       if (idx < deck.length - 1) { goTo(idx + 1); }
-      else { flipCounts.fill(0); idx = 0; render(); }
+      else { deck = shuffle(deck); flipCounts.fill(0); idx = 0; render(); }
     });
   }
 
@@ -394,6 +394,9 @@ function renderFillBlanks(exercises) {
         input.value = ex.answer;
         input.focus();
         hintBtn.disabled = true;
+        // Show full sentence with answer filled in as context
+        const fullSentence = ex.sentence.replace(/_{2,}/g, `<strong>${esc(ex.answer)}</strong>`);
+        feedback.innerHTML += `<br><span class="hint-context">${fullSentence}</span>`;
       }
     });
 
@@ -420,7 +423,7 @@ function renderMultipleChoice(questions) {
     const card = document.createElement('div');
     card.className = 'question-card';
 
-    const optionsHtml = q.options.map((opt, j) =>
+    const optionsHtml = shuffle(q.options).map((opt, j) =>
       `<button class="option-btn" data-idx="${j}" data-correct="${opt.correct}">${esc(opt.text)}</button>`
     ).join('');
 
